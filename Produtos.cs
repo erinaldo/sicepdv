@@ -869,6 +869,18 @@ namespace SICEpdv
 
         }
 
+        public bool ApagarProdutosContador()
+        {
+            try
+            {
+                ServiceProdutos.WSProdutosClient WSProdutos = new ServiceProdutos.WSProdutosClient();
+                return WSProdutos.ExcluirProdutosContador(GlbVariaveis.chavePrivada, Configuracoes.cnpj);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
 
 
 

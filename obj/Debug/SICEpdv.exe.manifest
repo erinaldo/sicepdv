@@ -186,14 +186,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SICEpdv.exe" size="9186304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SICEpdv.exe" size="9187840">
       <assemblyIdentity name="SICEpdv" version="7.0.0.18" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>sFx+pKtcVxHIbWq7Nor4HaL/TTs=</dsig:DigestValue>
+        <dsig:DigestValue>mIMIoU/mVnOf37p6DW97ZGTlYno=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

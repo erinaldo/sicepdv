@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProdutos));
             this.btnTeclado = new System.Windows.Forms.Button();
             this.lblPrecoMinimo = new System.Windows.Forms.Label();
@@ -75,10 +76,14 @@
             this.fotoPrd = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnProcurar = new System.Windows.Forms.Button();
+            this.menuContabil = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.enviarProdutosParaAContabilidadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dtgProdutos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUpload)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotoPrd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuContabil.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnTeclado
@@ -353,11 +358,11 @@
             this.dtgProdutos.Name = "dtgProdutos";
             this.dtgProdutos.ReadOnly = true;
             this.dtgProdutos.RowHeadersVisible = false;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            this.dtgProdutos.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            this.dtgProdutos.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dtgProdutos.RowTemplate.Height = 30;
             this.dtgProdutos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgProdutos.Size = new System.Drawing.Size(892, 336);
@@ -376,8 +381,8 @@
             // codigo
             // 
             this.codigo.DataPropertyName = "codigo";
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.codigo.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.codigo.DefaultCellStyle = dataGridViewCellStyle3;
             this.codigo.HeaderText = "Cód";
             this.codigo.Name = "codigo";
             this.codigo.ReadOnly = true;
@@ -571,12 +576,34 @@
             this.btnProcurar.UseVisualStyleBackColor = false;
             this.btnProcurar.Click += new System.EventHandler(this.btnProcurar_Click);
             // 
+            // menuContabil
+            // 
+            this.menuContabil.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.enviarProdutosParaAContabilidadeToolStripMenuItem,
+            this.retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem});
+            this.menuContabil.Name = "menuContabil";
+            this.menuContabil.Size = new System.Drawing.Size(313, 70);
+            // 
+            // enviarProdutosParaAContabilidadeToolStripMenuItem
+            // 
+            this.enviarProdutosParaAContabilidadeToolStripMenuItem.Name = "enviarProdutosParaAContabilidadeToolStripMenuItem";
+            this.enviarProdutosParaAContabilidadeToolStripMenuItem.Size = new System.Drawing.Size(312, 22);
+            this.enviarProdutosParaAContabilidadeToolStripMenuItem.Text = "Enviar Produtos para a Contabilidade";
+            this.enviarProdutosParaAContabilidadeToolStripMenuItem.Click += new System.EventHandler(this.enviarProdutosParaAContabilidadeToolStripMenuItem_Click);
+            // 
+            // retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem
+            // 
+            this.retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem.Name = "retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem";
+            this.retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem.Size = new System.Drawing.Size(312, 22);
+            this.retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem.Text = "Retirar acesso dos produtos da Contabilidade";
+            this.retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem.Click += new System.EventHandler(this.retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem_Click);
+            // 
             // FrmProdutos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(65)))), ((int)(((byte)(119)))));
-            this.ClientSize = new System.Drawing.Size(907, 623);
+            this.ClientSize = new System.Drawing.Size(907, 739);
             this.Controls.Add(this.btnUpload);
             this.Controls.Add(this.btnContador);
             this.Controls.Add(this.lblLocalEstoque);
@@ -616,6 +643,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnUpload)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotoPrd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuContabil.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -667,5 +695,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn codigobarras;
         private System.Windows.Forms.DataGridViewTextBoxColumn localestoque;
         private System.Windows.Forms.PictureBox btnUpload;
+        private System.Windows.Forms.ContextMenuStrip menuContabil;
+        private System.Windows.Forms.ToolStripMenuItem enviarProdutosParaAContabilidadeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem;
     }
 }

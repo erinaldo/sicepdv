@@ -569,53 +569,8 @@ namespace SICEpdv
 
         private void btnContador_Click(object sender, EventArgs e)
         {
-
-            if (string.IsNullOrEmpty(Configuracoes.cnpj))
-            {
-                MessageBox.Show("CNPJ da filial é necessário para poder enviar os produtos");
-                return;
-            }
-
-           
-
-            FrmLogon Logon = new FrmLogon();
-            Operador.autorizado = false;
-            Logon.idCliente = 0;
-            Logon.campo = "gerente";
-            Logon.lblDescricao.Text = "ENVIAR PRODUTOS CONTADOR(A)";
-            Logon.txtDescricao.Text = "Digite a senha para confirmar. É necessário ter a permissão de Gerente";
-            Logon.ShowDialog();
-            if (!Operador.autorizado)
-                return;
-
-            if (string.IsNullOrEmpty(Configuracoes.emailContador))
-            {
-                MessageBox.Show("Cadastre o email do contador nas configurações da filial no SICE.net para que ele possa ter acesso ao portal. Os produtos serão enviados mesmo assim.");
-            }
-
-            if (MessageBox.Show("Ao enviar os produtos o seu contador terá as informações fiscais dos produtos como NFC,CEST,Tributação?", "Confirma", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
-            {
-                return;
-            }
-
-            Produtos produtos = new Produtos();
-            var inicio = DateTime.Now;
-            FrmMsgOperador msg3 = new FrmMsgOperador("", "Enviando informações fiscais dos produtos para a contabilidade. Pode demorar alguns minutos.");
-            msg3.Show();
-            Application.DoEvents();
-            try
-            {               
-                produtos.AtualizarProdutosContadorNuvem();
-                MessageBox.Show("Produtos exportado com sucesso. Seu contador receberá um e-mail para poder acessar o portal");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                msg3.Dispose();
-            }
+            menuContabil.Show(btnContador, new Point(btnContador.Width, 0));
+            
         }
 
         private void btnUpload_Click(object sender, EventArgs e)
@@ -638,6 +593,99 @@ namespace SICEpdv
         private void fotoPrd_Click(object sender, EventArgs e)
         {
             UploadImagem();
+        }
+
+        private void enviarProdutosParaAContabilidadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(Configuracoes.cnpj))
+            {
+                MessageBox.Show("CNPJ da filial é necessário para poder enviar os produtos");
+                return;
+            }
+
+
+
+            FrmLogon Logon = new FrmLogon();
+            Operador.autorizado = false;
+            Logon.idCliente = 0;
+            Logon.campo = "gerente";
+            Logon.lblDescricao.Text = "ENVIAR PRODUTOS CONTADOR(A) CNPJ : "+Funcoes.FormatarCNPJ(Configuracoes.cnpj);
+            Logon.txtDescricao.Text = "Digite a senha para confirmar. É necessário ter a permissão de Gerente";
+            Logon.ShowDialog();
+            if (!Operador.autorizado)
+                return;
+
+            if (string.IsNullOrEmpty(Configuracoes.emailContador))
+            {
+                MessageBox.Show("Cadastre o email do contador nas configurações da filial no SICE.net para que ele possa ter acesso ao portal. Os produtos serão enviados mesmo assim.");
+            }
+
+            if (MessageBox.Show("Ao enviar os produtos o seu contador terá as informações fiscais dos produtos como NFC,CEST,Tributação?", "Confirma", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                return;
+            }
+
+            Produtos produtos = new Produtos();
+            var inicio = DateTime.Now;
+            FrmMsgOperador msg3 = new FrmMsgOperador("", "Enviando informações fiscais dos produtos para a contabilidade. Pode demorar alguns minutos.");
+            msg3.Show();
+            Application.DoEvents();
+            try
+            {
+                produtos.AtualizarProdutosContadorNuvem();
+                MessageBox.Show("Produtos exportado com sucesso. Seu contador receberá um e-mail para poder acessar o portal");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                msg3.Dispose();
+            }
+        }
+
+        private void retirarAcessoDosProdutosDaContabilidadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            if (string.IsNullOrEmpty(Configuracoes.cnpj))
+            {
+                MessageBox.Show("CNPJ da filial é necessário para poder enviar os produtos");
+                return;
+            }
+
+
+
+            FrmLogon Logon = new FrmLogon();
+            Operador.autorizado = false;
+            Logon.idCliente = 0;
+            Logon.campo = "gerente";
+            Logon.lblDescricao.Text = "RETIRAR ACESSO PRODUTOS CONTADOR(A)";
+            Logon.txtDescricao.Text = "Digite a senha para confirmar. É necessário ter a permissão de Gerente";
+            Logon.ShowDialog();
+            if (!Operador.autorizado)
+                return;
+
+
+            Produtos produtos = new Produtos();
+            var inicio = DateTime.Now;
+            FrmMsgOperador msg3 = new FrmMsgOperador("", "Retirando o acesso da contabilidade.");
+            msg3.Show();
+            Application.DoEvents();
+            try
+            {
+                produtos.ApagarProdutosContador();
+                MessageBox.Show("Produtos retirado do acesso da contabilidade com sucesso. Seu contador(a) não terá mais acesso!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                msg3.Dispose();
+            }
+
         }
     }
 }

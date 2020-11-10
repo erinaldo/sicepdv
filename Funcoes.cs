@@ -411,9 +411,17 @@ namespace SICEpdv
 
         public static string FormatarCNPJ(string conteudo)
         {
+            try
+            {
+                conteudo = conteudo.PadRight(14, ' ');
+                return conteudo.Substring(0, 2) + "." + conteudo.Substring(2, 3) + "." + conteudo.Substring(5, 3) + "/" + conteudo.Substring(8, 4) + "-" + conteudo.Substring(12, 2);
+            }
+            catch (Exception)
+            {
+                return conteudo;
+            }
             //03 590 277 0001 00
-            conteudo = conteudo.PadRight(14, ' ');
-            return conteudo.Substring(0, 2) + "." + conteudo.Substring(2, 3) + "." + conteudo.Substring(5, 3) + "/" + conteudo.Substring(8, 4) + "-" + conteudo.Substring(12, 2);
+          
         }
 
         public static string FormatarCPF(string conteudo)
