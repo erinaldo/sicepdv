@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="568115ea-f3e1-45aa-9689-f072db361144" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://iqcard.cloudapp.net/WSIQPass.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSIQPass.xsd" MetadataType="Schema" ID="91c41674-0ebe-4446-81e2-38bef5d85b15" SourceId="1" SourceUrl="http://iqcard.cloudapp.net/WSIQPass.svc?xsd=xsd3" />
+    <MetadataFile FileName="WSIQPass1.xsd" MetadataType="Schema" ID="ebfceed6-b46d-4d09-95af-886e8e7702ed" SourceId="1" SourceUrl="http://iqcard.cloudapp.net/WSIQPass.svc?xsd=xsd1" />
+    <MetadataFile FileName="WSIQPass.wsdl" MetadataType="Wsdl" ID="d623d111-5334-4e9f-8800-bc17fcc78084" SourceId="1" SourceUrl="http://iqcard.cloudapp.net/WSIQPass.svc?wsdl" />
+    <MetadataFile FileName="WSIQPass2.xsd" MetadataType="Schema" ID="be16402c-faa2-4495-a0c1-68cbafed91e9" SourceId="1" SourceUrl="http://iqcard.cloudapp.net/WSIQPass.svc?xsd=xsd2" />
+    <MetadataFile FileName="WSIQPass3.xsd" MetadataType="Schema" ID="87285318-0f18-458c-89dd-886bb9d3614d" SourceId="1" SourceUrl="http://iqcard.cloudapp.net/WSIQPass.svc?xsd=xsd0" />
+    <MetadataFile FileName="WSIQPass.disco" MetadataType="Disco" ID="f651ef2b-0960-4ddb-b42f-bc627bbfda95" SourceId="1" SourceUrl="http://iqcard.cloudapp.net/WSIQPass.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

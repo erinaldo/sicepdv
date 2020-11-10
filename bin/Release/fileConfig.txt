@@ -1,0 +1,5 @@
+Impressora:
+Cupom:02
+Recibo:02
+Carnê:01
+c:\iqsistemas\sicepdv\iqkiosk\bin\release

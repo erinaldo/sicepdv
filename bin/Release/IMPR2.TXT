@@ -1,0 +1,79 @@
+                  I.Q. SISTEMAS.
+              IVAN QUIRINO DE LIMA.
+   R.HELENA RODRIGUES PORTO, 20/1 ANDAR-CENTRO.
+         ARCOVERDE - PE CEP: 56.506-040.
+CNPJ:03.590.277/0001-00           IE:0357789-97
+------------------------------------------------
+26/02/2015 15:24:47                   COO:001148
+             LEITURA MEMORIA FISCAL
+              REDUÇÃO: 0001 a 0001
+Contador Geral de Opera‡ão Não-Fiscal:    000168
+Contador de Redu‡äes Z:                     0066
+Contador de Rein¡cio de Opera‡ão:            001
+Contador de Fita-Detalhe:                 000000
+               REINICIO OPERAÇÃO
+CRO  DATA       HORA
+001# 22/09/2012 08:06:42 
+             IMPRESSÃO FITA DETALHE
+ CFD      DATA     HORA      COOi   COOf
+                    USUÁRIOS
+Usuario:01  CRO:001  07/10/2009  12:40:11 
+CNPJ:   03.590.277/0001-00
+IE:             0357789-97
+IM:                       
+GT:           3.167.420,58
+                REDUÇÕES DIÁRIAS
+                  USUÁRIO: 01
+CRZ  CRO   COO            DATA       HORA
+                      VENDA BRUTA DIÁRIA (  R$)
+DT=desconto ICMS DS=desconto ISSQN AT=acr‚s ICMS
+AS=acr‚scimo ISSQN  CT=cancelamento ICMS
+CS=cancelamento ISSQN  ON=opera‡ão não-fiscal
+------------------------------------------------
+0001 001 000049        23/09/2012 10:57:41 
+                                          610,35
+DT=                 0,82 AT=                1,00
+AS=                 0,00 CT=              458,62
+CS=                 0,00 01T17,00%=       148,68
+02T25,00%=          0,00 03T12,00%=         0,00
+04T07,00%=          0,00 05T27,00%=         0,00
+F1=                 0,00 I1=                1,23
+N1=                 1,00 FS1=               0,00
+IS1=                0,00 NS1=               0,00
+ON=                 0,00 
+Total do mˆs SETEMBRO  de 2012
+Venda Bruta (  R$)                        610,35
+DT=                 0,82 AT=                1,00
+AS=                 0,00 CT=              458,62
+CS=                 0,00 01T17,00%=       148,68
+02T25,00%=          0,00 03T12,00%=         0,00
+04T07,00%=          0,00 05T27,00%=         0,00
+F1=                 0,00 I1=                1,23
+N1=                 1,00 FS1=               0,00
+IS1=                0,00 NS1=               0,00
+ON=                 0,00 
+Total do per¡odo:
+Venda Bruta (  R$)                        610,35
+DT=                 0,82 AT=                1,00
+AS=                 0,00 CT=              458,62
+CS=                 0,00 01T17,00%=       148,68
+02T25,00%=          0,00 03T12,00%=         0,00
+04T07,00%=          0,00 05T27,00%=         0,00
+F1=                 0,00 I1=                1,23
+N1=                 1,00 FS1=               0,00
+IS1=                0,00 NS1=               0,00
+ON=                 0,00 
+N£mero de Redu‡äes Restantes:               2174
+                  DADOS GERAIS
+SOFTWARE BÁSICO:
+01.00.05 01/10/2008   08:00:05 
+MOEDA:R$   01/07/2008 12:00:00
+MFD: 911041141  
+CODIFICAÇÃO GT:
+a partir de 07/10/2009 12:40:11 
+0=U, 1=E, 2=A, 3=S, 4=C, 5=O, 6=P, 7=G, 8=I, 9=M
+------------------------------------------------
+ELGIN      K                     ECF-IF
+VERSÃO:01.00.05 ECF:001 LJ:0001 OPR:
+UUUUUUUUUSEPGCAUOI          26/02/2015 15:24:48 
+FAB:EL051100000000005898                  

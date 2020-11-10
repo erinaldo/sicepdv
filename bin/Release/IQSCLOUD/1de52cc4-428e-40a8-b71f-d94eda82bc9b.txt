@@ -1,0 +1,87 @@
+DELIMITER $$
+
+USE `sice`$$
+
+DROP PROCEDURE IF EXISTS `arquivamentoDiario`$$
+
+CREATE DEFINER=`usuario`@`%` PROCEDURE `arquivamentoDiario`(IN filial CHAR(5), IN datamovimento DATE)
+BEGIN
+	
+	SET @horaInicio	= CURRENT_TIME;
+	IF((SELECT cfgarquivardados FROM filiais WHERE codigoFilial = filial) = 'S')THEN
+		
+		DELETE FROM nfe012 WHERE cbdDocumento IN
+		(SELECT cbdDocumento FROM nfe012arquivo WHERE CbdDtaProcessamento <= datamovimento AND
+		CbdDtaProcessamento <> '0000-00-00' AND (CbdNumProtocolo IS NOT NULL OR CbdNumProtocolo <> 0)
+		AND CbdStsRetCodigo IN ('100','101','135')
+		AND CbdMod = '65'
+		AND cbdcodigofilial = filial)
+		AND CbdMod = '65' AND cbdcodigofilial = filial;
+	
+		DELETE FROM vendanf WHERE codigoFilial = filial 
+		AND documento IN 
+		(SELECT cbdDocumento FROM nfe012arquivo WHERE CbdDtaProcessamento <= datamovimento AND
+		CbdDtaProcessamento <> '0000-00-00' AND (CbdNumProtocolo IS NOT NULL OR CbdNumProtocolo <> 0)
+		AND CbdStsRetCodigo IN ('100','101','135') AND CbdMod = '65'
+		AND cbdcodigofilial = filial)
+		AND vendanf.modelodocfiscal = '65' AND vendanf.codigofilial = filial;
+	
+		SET @qtdRegistroOrigemNfe012 = (SELECT COUNT(1) FROM nfe012 WHERE CbdDtaProcessamento<=datamovimento AND CbdDtaProcessamento IS NOT NULL 
+		AND CbdDtaProcessamento <> '0000-00-00' AND (CbdNumProtocolo IS NOT NULL OR CbdNumProtocolo <> 0)
+		AND CbdStsRetCodigo IN ('100','101','135') AND cbdcodigofilial = filial AND cbdmod = '65');
+	
+		SET @qtdRegistroDestinoNfe012 = (SELECT COUNT(1) FROM nfe012arquivo WHERE CbdDtaProcessamento<=datamovimento AND CbdDtaProcessamento IS NOT NULL 
+		AND CbdDtaProcessamento <> '0000-00-00' /*AND (CbdNumProtocolo IS NOT NULL OR CbdNumProtocolo <> 0)*/
+		AND CbdStsRetCodigo IN ('100','101','135') AND cbdcodigofilial = filial AND cbdmod = '65');
+		
+		INSERT INTO nfe012arquivo
+		SELECT * FROM nfe012 WHERE CbdDtaProcessamento<=datamovimento AND CbdDtaProcessamento IS NOT NULL 
+		AND CbdDtaProcessamento <> '0000-00-00' AND (CbdNumProtocolo IS NOT NULL OR CbdNumProtocolo <> 0)
+		AND CbdStsRetCodigo IN ('100','101','135') AND cbdcodigofilial = filial AND cbdmod = '65';
+	
+		SET @qtdRegistroTotalNfe012 = (SELECT COUNT(1) FROM nfe012arquivo WHERE CbdDtaProcessamento<=datamovimento AND CbdDtaProcessamento IS NOT NULL 
+		AND CbdDtaProcessamento <> '0000-00-00' /*AND (CbdNumProtocolo IS NOT NULL OR CbdNumProtocolo <> 0)*/
+		AND CbdStsRetCodigo IN ('100','101','135') AND cbdcodigofilial = filial AND cbdmod = '65') ;
+		
+	
+		IF(@qtdRegistroOrigemNfe012 > 0)THEN
+			INSERT INTO vendanfarquivo SELECT * FROM vendanf WHERE codigoFilial = filial 
+			AND documento IN (SELECT cbdDocumento FROM nfe012 WHERE CbdDtaProcessamento<=datamovimento AND CbdDtaProcessamento IS NOT NULL 
+			AND CbdDtaProcessamento <> '0000-00-00' AND (CbdNumProtocolo IS NOT NULL OR CbdNumProtocolo <> 0)
+			AND CbdStsRetCodigo IN ('100','101','135') AND cbdcodigofilial = filial AND cbdmod = '65');
+		
+			DELETE FROM vendanf WHERE codigoFilial = filial 
+			AND documento IN (SELECT cbdDocumento FROM nfe012arquivo WHERE CbdDtaProcessamento<=datamovimento AND CbdDtaProcessamento IS NOT NULL 
+			AND CbdDtaProcessamento <> '0000-00-00' AND (CbdNumProtocolo IS NOT NULL OR CbdNumProtocolo <> 0)
+			AND CbdStsRetCodigo IN ('100','101','135') AND cbdcodigofilial = filial AND cbdmod = '65');
+		END IF;
+	
+		INSERT INTO LOG(qtdRegistroDestinoNfe012,qtdRegistroOrigemNfe012,qtdRegistroTotalNfe012,calculado,DATA,codigoFilial,horaInicio)VALUES
+		(@qtdRegistroTotalNfe012,@qtdRegistroOrigemNfe012,@qtdRegistroDestinoNfe012,(@qtdRegistroOrigemNfe012+@qtdRegistroDestinoNfe012),datamovimento,filial,@horaInicio);
+		UPDATE LOG AS l SET l.STATUS = 'OK' WHERE calculado = qtdRegistroDestinoNfe012 AND DATA = CURRENT_DATE;
+		
+		IF (@qtdRegistroTotalNfe012=(@qtdRegistroOrigemNfe012+@qtdRegistroDestinoNfe012)) THEN 
+	
+			UPDATE cbd001 AS c SET c.cbdarquivado = 'S' WHERE cbdcodigofilial = filial AND cbdmod = '65'
+			AND cbdDocumento IN (SELECT cbdDocumento FROM nfe012 WHERE CbdDtaProcessamento<=datamovimento AND CbdDtaProcessamento IS NOT NULL 
+			AND CbdDtaProcessamento <> '0000-00-00' AND (CbdNumProtocolo IS NOT NULL OR CbdNumProtocolo <> 0)
+			AND CbdStsRetCodigo IN ('100','101','135') AND cbdmod = '65'
+			AND cbdcodigofilial = filial);
+	
+			DELETE FROM nfe012 WHERE CbdDtaProcessamento<=datamovimento AND CbdDtaProcessamento IS NOT NULL 
+			AND CbdDtaProcessamento <> '0000-00-00' AND (CbdNumProtocolo IS NOT NULL OR CbdNumProtocolo <> 0)
+			AND CbdStsRetCodigo IN ('100','101','135') AND cbdcodigofilial = filial AND cbdmod = '65'; 
+	
+			UPDATE LOG AS l SET l.limpesa = 'S', horaFinal=CURRENT_TIME WHERE DATA = CURRENT_DATE AND codigoFilial = filial;
+	
+		END IF;
+	
+	UPDATE contdocs AS c SET
+	c.protocolo = IFNULL((SELECT CbdNumProtocolo FROM nfe012arquivo WHERE cbdDocumento = c.documento),'000000000000000'),
+	c.dataautorizacao = IFNULL((SELECT CbdDtaProcessamento FROM nfe012arquivo WHERE cbdDocumento = c.documento),c.dataautorizacao)
+	WHERE c.protocolo = '000000000000000';
+	END IF;	
+	
+    END$$
+
+DELIMITER ;

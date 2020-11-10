@@ -1,0 +1,105 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>	
+<h2 style="text-align: center; color: #000080; font-size: xx-large;">LEIAME  </h2>
+<h1>O Sistema deve ser rodado como administrador ! E instalado o framework 4.0 ou superior antes de qualquer outro procedimento </h1>
+<h3>Instalação</h3>
+        <p>O SICEpdv necessita do framework 4.0 ou superior para que possa rodar. Se o 
+            terminal não tiver o framework 4.0 instale o framework 
+            que vem junto a instalação. Depois execute a instalação do SICEpdv. 
+            Pois a instalação tem com pré-requesito o framework 4.0; Se o 
+            terminal a ser instalado estiver uma conexão a internet, poderá ser instalado 
+            automaticamente.&nbsp; A instalação do framework via internet é um processo&nbsp; demorado 
+            dependendo da conexão da internet. Por isso é recomendável instalar apartir da 
+            instalação que vem junto ao setup.<br />
+            Após instalado o SICEpdv e do framework execute o arquivo 
+            mysql-connector-net-6.3.6. O arquivo enconta-se dentro do diretório 
+            <a href="file:///c:/iqsistemas/sicepdv/.net">c:\iqsistemas\sicepdv/.net</a>. 
+            Abra o arquivo zipado e execute o arquivo este irá instalar os assemblies 
+            necessário para para o .net se conecte com o MySQL 5.0 ou superior. </p>
+        <p style="font-size: large">Atenção: Drives, dll, programas vem junto da instalação 
+            e estão no 
+            diretório <a href="file:///c:/iqsistemas/sicepdv/.net">
+            c:\iqsistemas\sicepdv\.net</a> <br />
+            
+
+<h3>Dados Técnicos</h3>	
+	    <p style="font-family: Arial, Helvetica, sans-serif">
+            O PAF-ECF SICEpdv é um módulo do SICE.net. É necessário que o SICE.net esteja 
+            instalado para que o SICEpdv possa ser rodar. O banco de dados dever ser o 
+            MySql 5.1 ou superior.<br />
+            Diretório de Instalação padrão: <a href="file:///c:/iqsistemas/SICEpdv">
+            c:\iqsistemas\SICEpdv</a>&nbsp; executáveis SICEpdv.exe e ConfigPAF.exe<br />
+            Dentro desse diretório existe um diretório chamando auxiliar neste diretório 
+            encontram-se os arquivos: Terminal.xml, ArquivoCadastroECF.xml,sHouse.xml estes 
+            arquivos contém informações usadas pelo legislação do PAF-ECF. Se algumas 
+            informações desses arquivos forem alteradas ou excluídas é necessário rodar o 
+            arquivo de configuração do PAF-ECF o nome do arquivo é c:\IQsistemas\SICEpdv\ConfigPAF.exe. Para gerar 
+            novos arquivos somente pessoa autorizada da IQ Sistemas e com uma senha 
+            específica.
+            Abra todas as abas e preencha as informações e depois clique no botão salvar de 
+            cada a ba.<br />
+        </p>
+        <h3>Conexão a Base de Dados</h3>
+	    <p>
+            Execute o arquivo <a href="file:///c:/iqsistemas/SICEpdv/ConfigPAG.exe">
+            c:\iqsistemas\SICEpdv\ConfigPAF.exe</a> e vá até a aba conexão a base de dados. 
+            Para navegar e alteração as opções é necessário entrar com senha fornecida pela 
+            IQ Sistemas.</p>
+            <h3>ECF </h3>
+	    <p>
+            O SICEpdv só efetua venda se a ECF estiver cadastrada no arquivo 
+            ArquivoCadastroECF.xml para adicionar uma ECF é necessário que a mesma esteja 
+            conectada. Depois execute o arquivo
+            <a href="file:///C:/iqsistemas/SICEpdv/ConfigPAF.exe">
+            C:\iqsistemas\SICEpdv\ConfigPAF.exe</a> e vá na aba Incluir ECF. Execute este mesmo procedimento se as configurações do GT 
+            total do ECF não estiverem iguais ao valor do arquivo. Isso pode acontecer 
+            devido a falhas no arquivo ou alteração do mesmo.
+            <br />
+            Formas de Pagamento que devem estarem cadastradas no ECF, considerando os 
+            acentos:<br />
+            Dinheiro<br />
+            Cheque<br />
+            Cartão<br />
+            Ticket<br />
+            Crediário<br />
+            Devolução 
+        </p>
+        <p>
+            IMPORTANTE Em alguns modelos de gaveta, este retorno poderá ser invertido, ou 
+            seja, o retorno que corresponde a &quot;gaveta aberta&quot;, poderá ser o retorno para 
+            &quot;gaveta fechada&quot;. Caso isso ocorra, mude a chave &quot;ModoGaveta&quot; (encontrado nas 
+            configurações do arquivo Bemafi32.ini ou Elgin.ini), para 1 (um) e efetue o 
+            teste de retorno, desta função, abrindo e fechando a gaveta. Daruam e Sweda - 
+            Execute o Regedit Tecle F3 procure por ModoGaveta e efetue a alteração para 
+            inverter.<h3>TEF </h3>
+            Para realizar venda com cartão de crédito. É preciso ir no SICE no cadastro dos 
+            cartões de crédito, alterar e colocar os diretórios de configuração do 
+            Gerenciador padrão. Normamente já vem com um diretório padrão como
+            <a href="file:///c:/tef_dial/resp">c:\tef_dial\resp</a>
+            <a href="file:///c:/tef_dial/req">c:\tef_dial\req</a> mas pode mudar de acordo 
+            com as configurações do gerenciador de cada cartão. Hiper já usa outro diretório 
+            por exemplo.<br />
+        </p>
+        <p>
+            Vá no ECF e liste as formas de pagamento e depois associe com a forma de 
+            pagamento. Ex: CR - Crediário em alguns ECFs vem com assento e outro sem 
+            assento.
+        </p>
+        <h3>Ajuda F1</h3>        
+	    <p>
+            A ajuda aparecer em forma de hint nos campos. Caso você esteja num campo e este 
+            não lhe seja intuitivo basta pressionar F1 que uma ajuda será mostrada com o 
+            significado do campo e o procedimento de como preenchê-lo.</p>
+            
+            <h3>Troca de Arquivos </h3>
+            <p>
+            Os arquivos de retorno das ECF usará a pasta c:\iqsistemas. Por padrão as ECFs
+            retornam o arquivo na raiz c:\ Mas o SICEpdv mudar a pasta padrão para c:\iqsistemas
+            para evitar problemas do windows vista de restrição aos arquivos da raiz.
+            </p>
+	</body>
+</html>

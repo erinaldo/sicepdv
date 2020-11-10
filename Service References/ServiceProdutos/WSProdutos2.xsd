@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WCFSice" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCFSice" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfProdutos">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Produtos" nillable="true" type="tns:Produtos" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProdutos" nillable="true" type="tns:ArrayOfProdutos" />
+  <xs:complexType name="Produtos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="codigofilial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="deposito" type="xs:decimal" />
+      <xs:element minOccurs="0" name="descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="disponivel" type="xs:decimal" />
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="prateleiras" type="xs:decimal" />
+      <xs:element minOccurs="0" name="precominimo" type="xs:decimal" />
+      <xs:element minOccurs="0" name="precovenda" type="xs:decimal" />
+      <xs:element minOccurs="0" name="quantidade" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ultcompra" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ultvenda" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Produtos" nillable="true" type="tns:Produtos" />
+  <xs:complexType name="ArrayOfPosicaoFiliais">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PosicaoFiliais" nillable="true" type="tns:PosicaoFiliais" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPosicaoFiliais" nillable="true" type="tns:ArrayOfPosicaoFiliais" />
+  <xs:complexType name="PosicaoFiliais">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="custo" type="xs:decimal" />
+      <xs:element minOccurs="0" name="deposito" type="xs:decimal" />
+      <xs:element minOccurs="0" name="descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="filial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="grupo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="prateleiras" type="xs:decimal" />
+      <xs:element minOccurs="0" name="precoVenda" type="xs:decimal" />
+      <xs:element minOccurs="0" name="qtdMatriz" type="xs:decimal" />
+      <xs:element minOccurs="0" name="quantidade" type="xs:decimal" />
+      <xs:element minOccurs="0" name="soma" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PosicaoFiliais" nillable="true" type="tns:PosicaoFiliais" />
+  <xs:complexType name="ArrayOfFaturamento">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Faturamento" nillable="true" type="tns:Faturamento" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFaturamento" nillable="true" type="tns:ArrayOfFaturamento" />
+  <xs:complexType name="Faturamento">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="filial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lucroOperativo" type="xs:decimal" />
+      <xs:element minOccurs="0" name="margemLucro" type="xs:decimal" />
+      <xs:element minOccurs="0" name="mediaRenovacao" type="xs:int" />
+      <xs:element minOccurs="0" name="totalCustos" type="xs:decimal" />
+      <xs:element minOccurs="0" name="totalQuantidade" type="xs:decimal" />
+      <xs:element minOccurs="0" name="totalVendas" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Faturamento" nillable="true" type="tns:Faturamento" />
+  <xs:complexType name="ArrayOfProdutosContador">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProdutosContador" nillable="true" type="tns:ProdutosContador" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProdutosContador" nillable="true" type="tns:ArrayOfProdutosContador" />
+  <xs:complexType name="ProdutosContador">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cest" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cfopsaida" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="codigobarras" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="codigosuspensaocofins" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="codigosuspensaopis" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cofins" type="xs:double" />
+      <xs:element minOccurs="0" name="descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="icms" type="xs:double" />
+      <xs:element minOccurs="0" name="ncm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="origem" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="pis" type="xs:double" />
+      <xs:element minOccurs="0" name="situacaoinventario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tributacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tributacaocofins" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tributacaopis" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProdutosContador" nillable="true" type="tns:ProdutosContador" />
+</xs:schema>

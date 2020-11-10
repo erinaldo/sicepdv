@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Terminal>
+  <ECF>
+    <numeroECF>3</numeroECF>
+    <preVenda>Nao</preVenda>
+    <pdv>Sim</pdv>
+    <davPorECF>Nao</davPorECF>
+    <davPorImpressoraNaoFiscal>Nao</davPorImpressoraNaoFiscal>
+  </ECF>
+</Terminal>

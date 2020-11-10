@@ -1,0 +1,8 @@
+C:\Users\ivam\Documents\Visual Studio 2008\Projects\IQKiosk\IQKiosk\bin\Debug\IQKiosk.exe
+C:\Users\ivam\Documents\Visual Studio 2008\Projects\IQKiosk\IQKiosk\bin\Debug\IQKiosk.pdb
+C:\Users\ivam\Documents\Visual Studio 2008\Projects\IQKiosk\IQKiosk\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ivam\Documents\Visual Studio 2008\Projects\IQKiosk\IQKiosk\obj\Debug\IQKiosk.Form1.resources
+C:\Users\ivam\Documents\Visual Studio 2008\Projects\IQKiosk\IQKiosk\obj\Debug\IQKiosk.Properties.Resources.resources
+C:\Users\ivam\Documents\Visual Studio 2008\Projects\IQKiosk\IQKiosk\obj\Debug\IQKiosk.csproj.GenerateResource.Cache
+C:\Users\ivam\Documents\Visual Studio 2008\Projects\IQKiosk\IQKiosk\obj\Debug\IQKiosk.exe
+C:\Users\ivam\Documents\Visual Studio 2008\Projects\IQKiosk\IQKiosk\obj\Debug\IQKiosk.pdb

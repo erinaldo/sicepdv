@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Relatorios>
+  <relatorio codigo="DAVEMITIDOS" indice="06" descricao="DAV. EMITIDOS" />
+  <relatorio codigo="IDPAFECF" indice="07" descricao="ID. PAF-ECF" />
+  <relatorio codigo="MEIOSPGT" indice="08" descricao="MEIOS PGT." />
+  <relatorio codigo="INDICEPROD" indice="09" descricao="INDICE PROD." />
+  <relatorio codigo="PARAMETROSCNF" indice="10" descricao="PARAMETRO CNF" />
+</Relatorios>

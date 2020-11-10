@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReducaoZ Versao="1.0">
+  <Mensagem>
+    <Estabelecimento>
+      <Ie>08067532000158</Ie>
+      <Cnpj>033896690</Cnpj>
+      <NomeEmpresarial>BIOCOLLOUR DO BRASIL LTDA ME</NomeEmpresarial>
+    </Estabelecimento>
+    <PafEcf>
+      <NumeroCredenciamento>POL2332014</NumeroCredenciamento>
+      <NomeComercial>SICEpdv.net</NomeComercial>
+      <Versao>0203</Versao>
+      <CnpjDesenvolvedor>03590277000100</CnpjDesenvolvedor>
+      <NomeEmpresarialDesenvolvedor>IQ SISTEMAS</NomeEmpresarialDesenvolvedor>
+    </PafEcf>
+    <Ecf>
+      <NumeroFabricacao>DR0514BR000000440535</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>Daruma</Modelo>
+      <Versao></Versao>
+      <NumeroFabricacao>BE051175610000120514</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-2100 TH FI       </Modelo>
+      <Versao>0101 </Versao>
+      <DadosReducaoZ>
+        <DataReferencia>02/05/2016</DataReferencia>
+        <CRZ>000099</CRZ>
+        <COO>001814</COO>
+        <CRO>000046</CRO>
+        <VendaBrutaDiaria>18.00</VendaBrutaDiaria>
+        <GT>6115782.79</GT>
+        <TotalizadoresParciais>
+          <TotalizadorParcial>
+            <Nome>Can-T  </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>Can-S  </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>DT     </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>DS     </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>F1     </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>FS1    </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>I1     </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>IS1    </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>N1     </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>NS1    </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>1T1700 </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>2T1200 </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>3T7000 </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>4T2500 </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>5T2700 </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>6T1800 </Nome>
+            <Valor>18.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>OPNF   </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>AT     </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <TotalizadorParcial>
+            <Nome>AS     </Nome>
+            <Valor>0.00</Valor>
+          </TotalizadorParcial>
+          <ProdutosServicos>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 07                             </Descricao>
+              <CodigoInterno>3</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>7.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 12                             </Descricao>
+              <CodigoInterno>2</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>12.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 12                             </Descricao>
+              <CodigoInterno>2</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>12.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 25                             </Descricao>
+              <CodigoInterno>5</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>25.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 27                             </Descricao>
+              <CodigoInterno>4</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>27.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 07                             </Descricao>
+              <CodigoInterno>3</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>7.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 07                             </Descricao>
+              <CodigoInterno>3</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>7.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 12                             </Descricao>
+              <CodigoInterno>2</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>12.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>2.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>19.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>30.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>20.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>2.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>15.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Produto>
+              <Descricao>PRODUTO TRIBUTADO 18                             </Descricao>
+              <CodigoInterno>1</CodigoInterno>
+              <Quantidade>1.00000</Quantidade>
+              <ValorUnitario>18.00000</ValorUnitario>
+            </Produto>
+            <Servico />
+          </ProdutosServicos>
+        </TotalizadoresParciais>
+      </DadosReducaoZ>
+    </Ecf>
+  </Mensagem>
+</ReducaoZ>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WSProdutos" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://wssice.cloudapp.net/WSProdutos.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://wssice.cloudapp.net/WSProdutos.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://wssice.cloudapp.net/WSProdutos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCFSice" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWSProdutos_ListagemProdutos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListagemProdutos" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_ListagemProdutos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListagemProdutosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_PosicaoFiliais_InputMessage">
+    <wsdl:part name="parameters" element="tns:PosicaoFiliais" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_PosicaoFiliais_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PosicaoFiliaisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_FaturamentoFiliais_InputMessage">
+    <wsdl:part name="parameters" element="tns:FaturamentoFiliais" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_FaturamentoFiliais_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FaturamentoFiliaisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_IncluirProdutosContador_InputMessage">
+    <wsdl:part name="parameters" element="tns:IncluirProdutosContador" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_IncluirProdutosContador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IncluirProdutosContadorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_IncluirContador_InputMessage">
+    <wsdl:part name="parameters" element="tns:IncluirContador" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_IncluirContador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IncluirContadorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_ExcluirProdutosContador_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExcluirProdutosContador" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_ExcluirProdutosContador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExcluirProdutosContadorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_ListagemProdutosContadorCNPJ_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListagemProdutosContadorCNPJ" />
+  </wsdl:message>
+  <wsdl:message name="IWSProdutos_ListagemProdutosContadorCNPJ_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListagemProdutosContadorCNPJResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWSProdutos">
+    <wsdl:operation name="ListagemProdutos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSProdutos/ListagemProdutos" message="tns:IWSProdutos_ListagemProdutos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSProdutos/ListagemProdutosResponse" message="tns:IWSProdutos_ListagemProdutos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PosicaoFiliais">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSProdutos/PosicaoFiliais" message="tns:IWSProdutos_PosicaoFiliais_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSProdutos/PosicaoFiliaisResponse" message="tns:IWSProdutos_PosicaoFiliais_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FaturamentoFiliais">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSProdutos/FaturamentoFiliais" message="tns:IWSProdutos_FaturamentoFiliais_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSProdutos/FaturamentoFiliaisResponse" message="tns:IWSProdutos_FaturamentoFiliais_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IncluirProdutosContador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSProdutos/IncluirProdutosContador" message="tns:IWSProdutos_IncluirProdutosContador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSProdutos/IncluirProdutosContadorResponse" message="tns:IWSProdutos_IncluirProdutosContador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IncluirContador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSProdutos/IncluirContador" message="tns:IWSProdutos_IncluirContador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSProdutos/IncluirContadorResponse" message="tns:IWSProdutos_IncluirContador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExcluirProdutosContador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSProdutos/ExcluirProdutosContador" message="tns:IWSProdutos_ExcluirProdutosContador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSProdutos/ExcluirProdutosContadorResponse" message="tns:IWSProdutos_ExcluirProdutosContador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListagemProdutosContadorCNPJ">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSProdutos/ListagemProdutosContadorCNPJ" message="tns:IWSProdutos_ListagemProdutosContadorCNPJ_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSProdutos/ListagemProdutosContadorCNPJResponse" message="tns:IWSProdutos_ListagemProdutosContadorCNPJ_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWSProdutos" type="tns:IWSProdutos">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListagemProdutos">
+      <soap:operation soapAction="http://tempuri.org/IWSProdutos/ListagemProdutos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PosicaoFiliais">
+      <soap:operation soapAction="http://tempuri.org/IWSProdutos/PosicaoFiliais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FaturamentoFiliais">
+      <soap:operation soapAction="http://tempuri.org/IWSProdutos/FaturamentoFiliais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IncluirProdutosContador">
+      <soap:operation soapAction="http://tempuri.org/IWSProdutos/IncluirProdutosContador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IncluirContador">
+      <soap:operation soapAction="http://tempuri.org/IWSProdutos/IncluirContador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExcluirProdutosContador">
+      <soap:operation soapAction="http://tempuri.org/IWSProdutos/ExcluirProdutosContador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListagemProdutosContadorCNPJ">
+      <soap:operation soapAction="http://tempuri.org/IWSProdutos/ListagemProdutosContadorCNPJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSProdutos">
+    <wsdl:port name="BasicHttpBinding_IWSProdutos" binding="tns:BasicHttpBinding_IWSProdutos">
+      <soap:address location="http://wssice.cloudapp.net/WSProdutos.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

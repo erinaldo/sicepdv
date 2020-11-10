@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<REDESCARTOES>
+  <REDE>
+    <Descricao>AMEX</Descricao>    
+  </REDE>
+  <REDE>
+    <Descricao>VISANET</Descricao>    
+  </REDE>
+  <REDE>
+    <Descricao>REDECARD</Descricao>    
+  </REDE>
+  <REDE>
+    <Descricao>TECBAN</Descricao>    
+  </REDE>
+  
+</REDESCARTOES>
+

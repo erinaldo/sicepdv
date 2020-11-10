@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<REDECARTOES>
+  <REDE>
+    <Descricao>AMEX</Descricao>
+    <idRede>0</idRede>
+    <req>c:\tef_dial\req</req>
+    <resp>c:\tef_dial\resp</resp>
+  </REDE>
+  <REDE>
+    <Descricao>REDECARD</Descricao>
+    <idRede>0</idRede>
+    <req>c:\tef_dial\req</req>
+    <resp>c:\tef_dial\resp</resp>
+  </REDE>
+  <REDE>
+    <Descricao>VISANET</Descricao>
+    <idRede>0</idRede>
+    <req>c:\tef_dial\req</req>
+    <resp>c:\tef_dial\resp</resp>
+  </REDE>
+  <REDE>
+    <Descricao>TECBAN</Descricao>
+    <idRede>1</idRede>
+    <req>c:\tef_disc\req</req>
+    <resp>c:\tef_disc\resp</resp>
+  </REDE>
+  <REDE>
+    <Descricao>HIPERCARD</Descricao>
+    <idRede>4</idRede>
+    <req>c:\HiperTEF\req</req>
+    <resp>c:\HiperTEF\resp</resp>
+  </REDE>
+</REDECARTOES>

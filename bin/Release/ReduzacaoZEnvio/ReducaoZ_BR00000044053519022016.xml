@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReducaoZ Versao="1.0">
+  <Mensagem>
+    <Estabelecimento>
+      <Ie>10385908001005</Ie>
+      <Cnpj>000864285</Cnpj>
+      <NomeEmpresarial>S SOARES RODRIGUES</NomeEmpresarial>
+    </Estabelecimento>
+    <PafEcf>
+      <NumeroCredenciamento>POL2332014</NumeroCredenciamento>
+      <NomeComercial>SICEpdv.net</NomeComercial>
+      <Versao>0201</Versao>
+      <CnpjDesenvolvedor>03590277000100</CnpjDesenvolvedor>
+      <NomeEmpresarialDesenvolvedor>IQ SISTEMAS</NomeEmpresarialDesenvolvedor>
+    </PafEcf>
+    <Ecf>
+      <NumeroFabricacao>DR0514BR000000440535</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>Daruma</Modelo>
+      <Versao></Versao>
+      <NumeroFabricacao>EL051100000000005898</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>FiscNET</Modelo>
+      <Versao></Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011297939</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>0100 </Versao>
+      <NumeroFabricacao>BE091210100011214269</NumeroFabricacao>
+      <Tipo>ECF-IF</Tipo>
+      <Marca>BEMATECH</Marca>
+      <Modelo>MP-4000 TH FI       </Modelo>
+      <Versao>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WSClientes" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://wssice.cloudapp.net/WSClientes.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://wssice.cloudapp.net/WSClientes.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://wssice.cloudapp.net/WSClientes.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCFSice" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWSClientes_DataServidor_InputMessage">
+    <wsdl:part name="parameters" element="tns:DataServidor" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_DataServidor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DataServidorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_QtdParcelasAtrasadas_InputMessage">
+    <wsdl:part name="parameters" element="tns:QtdParcelasAtrasadas" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_QtdParcelasAtrasadas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QtdParcelasAtrasadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_DadosCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:DadosCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_DadosCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DadosClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_CodigoCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:CodigoCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_CodigoCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CodigoClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_ListagemClientes_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListagemClientes" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_ListagemClientes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListagemClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_InfoCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:InfoCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_InfoCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InfoClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_Boletos_InputMessage">
+    <wsdl:part name="parameters" element="tns:Boletos" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_Boletos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BoletosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_Extrato_InputMessage">
+    <wsdl:part name="parameters" element="tns:Extrato" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_Extrato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExtratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_PosicaoCrediario_InputMessage">
+    <wsdl:part name="parameters" element="tns:PosicaoCrediario" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_PosicaoCrediario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PosicaoCrediarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_Inadimplencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:Inadimplencia" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_Inadimplencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InadimplenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_EmailMensalidadeSICE_InputMessage">
+    <wsdl:part name="parameters" element="tns:EmailMensalidadeSICE" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_EmailMensalidadeSICE_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EmailMensalidadeSICEResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_Versao_InputMessage">
+    <wsdl:part name="parameters" element="tns:Versao" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_Versao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VersaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_ValorTotalDebitoCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValorTotalDebitoCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWSClientes_ValorTotalDebitoCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValorTotalDebitoClienteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWSClientes">
+    <wsdl:operation name="DataServidor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/DataServidor" message="tns:IWSClientes_DataServidor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/DataServidorResponse" message="tns:IWSClientes_DataServidor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QtdParcelasAtrasadas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/QtdParcelasAtrasadas" message="tns:IWSClientes_QtdParcelasAtrasadas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/QtdParcelasAtrasadasResponse" message="tns:IWSClientes_QtdParcelasAtrasadas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DadosCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/DadosCliente" message="tns:IWSClientes_DadosCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/DadosClienteResponse" message="tns:IWSClientes_DadosCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CodigoCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/CodigoCliente" message="tns:IWSClientes_CodigoCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/CodigoClienteResponse" message="tns:IWSClientes_CodigoCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListagemClientes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/ListagemClientes" message="tns:IWSClientes_ListagemClientes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/ListagemClientesResponse" message="tns:IWSClientes_ListagemClientes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InfoCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/InfoCliente" message="tns:IWSClientes_InfoCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/InfoClienteResponse" message="tns:IWSClientes_InfoCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Boletos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/Boletos" message="tns:IWSClientes_Boletos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/BoletosResponse" message="tns:IWSClientes_Boletos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Extrato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/Extrato" message="tns:IWSClientes_Extrato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/ExtratoResponse" message="tns:IWSClientes_Extrato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PosicaoCrediario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/PosicaoCrediario" message="tns:IWSClientes_PosicaoCrediario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/PosicaoCrediarioResponse" message="tns:IWSClientes_PosicaoCrediario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Inadimplencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/Inadimplencia" message="tns:IWSClientes_Inadimplencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/InadimplenciaResponse" message="tns:IWSClientes_Inadimplencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EmailMensalidadeSICE">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/EmailMensalidadeSICE" message="tns:IWSClientes_EmailMensalidadeSICE_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/EmailMensalidadeSICEResponse" message="tns:IWSClientes_EmailMensalidadeSICE_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Versao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/Versao" message="tns:IWSClientes_Versao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/VersaoResponse" message="tns:IWSClientes_Versao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValorTotalDebitoCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSClientes/ValorTotalDebitoCliente" message="tns:IWSClientes_ValorTotalDebitoCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSClientes/ValorTotalDebitoClienteResponse" message="tns:IWSClientes_ValorTotalDebitoCliente_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWSClientes" type="tns:IWSClientes">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DataServidor">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/DataServidor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QtdParcelasAtrasadas">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/QtdParcelasAtrasadas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DadosCliente">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/DadosCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CodigoCliente">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/CodigoCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListagemClientes">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/ListagemClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InfoCliente">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/InfoCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Boletos">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/Boletos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Extrato">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/Extrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PosicaoCrediario">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/PosicaoCrediario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Inadimplencia">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/Inadimplencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmailMensalidadeSICE">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/EmailMensalidadeSICE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Versao">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/Versao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValorTotalDebitoCliente">
+      <soap:operation soapAction="http://tempuri.org/IWSClientes/ValorTotalDebitoCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSClientes">
+    <wsdl:port name="BasicHttpBinding_IWSClientes" binding="tns:BasicHttpBinding_IWSClientes">
+      <soap:address location="http://wssice.cloudapp.net/WSClientes.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

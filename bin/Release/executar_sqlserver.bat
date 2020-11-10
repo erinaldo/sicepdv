@@ -1,0 +1,1 @@
+msiexec.exe /i "c:\iqsistemas\SICEpdv\SQLSysClrTypes2015.msi" /quiet /passive

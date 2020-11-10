@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Estoque Versao="1.0">
+  <Mensagem>
+    <Estabelecimento>
+      <Ie>08067532000158</Ie>
+      <Cnpj>033896690</Cnpj>
+      <NomeEmpresarial>BIOCOLLOUR DO BRASIL LTDA ME</NomeEmpresarial>
+    </Estabelecimento>
+    <PafEcf>
+      <NumeroCredenciamento>POL2332014</NumeroCredenciamento>
+      <NomeComercial>SICEpdv.net</NomeComercial>
+      <Versao>0203</Versao>
+      <CnpjDesenvolvedor>03590277000100</CnpjDesenvolvedor>
+      <NomeEmpresarialDesenvolvedor>IQ SISTEMAS</NomeEmpresarialDesenvolvedor>
+    </PafEcf>
+    <DadosEstoque>
+      <DataReferenciaInicial>2016-04-26T00:00:00-03:00</DataReferenciaInicial>
+      <DataReferenciaFinal>2016-04-26T00:00:00-03:00</DataReferenciaFinal>
+      <Produtos>
+        <Produto>
+          <Descricao>PRODUTO TRIBUTADO 18</Descricao>
+          <CodigoInterno tipo="GTIN">1</CodigoInterno>
+          <Quantidade>57.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>18.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>P</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TRIBUTADO 12</Descricao>
+          <CodigoInterno tipo="GTIN">2</CodigoInterno>
+          <Quantidade>1998.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>12.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TRIBUTADO 07</Descricao>
+          <CodigoInterno tipo="GTIN">3</CodigoInterno>
+          <Quantidade>93.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>7.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>P</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TRIBUTADO 27</Descricao>
+          <CodigoInterno tipo="GTIN">4</CodigoInterno>
+          <Quantidade>20000.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>27.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TRIBUTADO 25</Descricao>
+          <CodigoInterno tipo="GTIN">5</CodigoInterno>
+          <Quantidade>100.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>25.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>P</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TRIBUTADO CST 060</Descricao>
+          <CodigoInterno tipo="GTIN">6</CodigoInterno>
+          <Quantidade>20000.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>10.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>F</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TRIBUTADO CST 040</Descricao>
+          <CodigoInterno tipo="GTIN">7</CodigoInterno>
+          <Quantidade>20000.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>10.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>I</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TEF</Descricao>
+          <CodigoInterno tipo="GTIN">8</CodigoInterno>
+          <Quantidade>2000.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>999999.99</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TEF 1</Descricao>
+          <CodigoInterno tipo="GTIN">9</CodigoInterno>
+          <Quantidade>2000.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>1.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TEF 2</Descricao>
+          <CodigoInterno tipo="GTIN">10</CodigoInterno>
+          <Quantidade>2000.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>2.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TEF 3</Descricao>
+          <CodigoInterno tipo="GTIN">11</CodigoInterno>
+          <Quantidade>2000.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>12345.67</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO CODIGO GTIN</Descricao>
+          <CodigoInterno tipo="GTIN">7898306081532</CodigoInterno>
+          <Quantidade>10000.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>1.01</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TRIBUTADO CST 041</Descricao>
+          <CodigoInterno tipo="GTIN">7898306081533</CodigoInterno>
+          <Quantidade>0.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>5.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>I</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+        <Produto>
+          <Descricao>PRODUTO TRIBUTADO CST 020</Descricao>
+          <CodigoInterno tipo="GTIN">7898306081534</CodigoInterno>
+          <Quantidade>0.00</Quantidade>
+          <Unidade>UNI</Unidade>
+          <ValorUnitario>20.00</ValorUnitario>
+          <SituacaoTributaria>T</SituacaoTributaria>
+          <Aliquota>T</Aliquota>
+          <IndicadorArredondamento>A</IndicadorArredondamento>
+          <Ippt>T</Ippt>
+          <SituacaoEstoque>total</SituacaoEstoque>
+        </Produto>
+      </Produtos>
+    </DadosEstoque>
+  </Mensagem>
+</Estoque>

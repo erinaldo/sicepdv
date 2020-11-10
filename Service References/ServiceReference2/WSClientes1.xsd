@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://wssice.cloudapp.net/WSClientes.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCFSice" />
+  <xs:element name="DataServidor">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DataServidorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataServidorResult" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QtdParcelasAtrasadas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QtdParcelasAtrasadasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="QtdParcelasAtrasadasResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DadosCliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idCliente" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DadosClienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WCFSice" minOccurs="0" name="DadosClienteResult" nillable="true" type="q1:Clientes" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodigoCliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fantasia" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodigoClienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CodigoClienteResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListagemClientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="credenciaisDB" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="contrato" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pesquisa" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListagemClientesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WCFSice" minOccurs="0" name="ListagemClientesResult" nillable="true" type="q2:ArrayOfClientes" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InfoCliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="credenciaisDB" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="contrato" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="idCliente" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InfoClienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WCFSice" minOccurs="0" name="InfoClienteResult" nillable="true" type="q3:ClientesInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Boletos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="credenciaisDB" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="contrato" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="idCliente" type="xs:int" />
+        <xs:element minOccurs="0" name="conta" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="filial" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BoletosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/WCFSice" minOccurs="0" name="BoletosResult" nillable="true" type="q4:ArrayOfBoletoBancario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Extrato">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="credenciaisDB" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="contrato" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="idCliente" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExtratoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/WCFSice" minOccurs="0" name="ExtratoResult" nillable="true" type="q5:ArrayOfExtrato" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PosicaoCrediario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="credenciaisDB" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="filial" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PosicaoCrediarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/WCFSice" minOccurs="0" name="PosicaoCrediarioResult" nillable="true" type="q6:ResumoCrediario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Inadimplencia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="credenciaisDB" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="filial" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InadimplenciaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/WCFSice" minOccurs="0" name="InadimplenciaResult" nillable="true" type="q7:ArrayOfDadosInadimplencia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EmailMensalidadeSICE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="assinatura" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="complemento" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EmailMensalidadeSICEResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EmailMensalidadeSICEResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Versao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VersaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VersaoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValorTotalDebitoCliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="assinatura" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="idCliente" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValorTotalDebitoClienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ValorTotalDebitoClienteResult" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

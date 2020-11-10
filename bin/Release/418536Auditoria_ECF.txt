@@ -1,0 +1,2084 @@
+16/01/2015-13:41:13:004:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-13:41:13:005:	-----------------------------------------------------
+
+16/01/2015-13:41:13:005:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:41:13:007:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-13:41:13:008:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-13:41:13:008:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:41:13:008:	-----------------------------------------------------
+
+16/01/2015-13:41:13:008:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:41:13:018:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:41:13:018:	-----------------------------------------------------
+
+16/01/2015-13:41:13:018:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:41:13:030:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:41:13:030:	-----------------------------------------------------
+
+16/01/2015-13:41:13:030:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:41:13:044:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-13:41:13:044:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-13:41:13:044:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-13:41:13:044:						Checksum (²) - Quant (1)
+16/01/2015-13:41:13:044:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-13:41:13:044:						>> esAbrirSerial(COM4)
+16/01/2015-13:41:13:045:							>> fnTentarAbrirSerial(4)
+16/01/2015-13:41:13:045:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-13:41:13:045:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-13:41:13:045:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-13:41:13:045:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-13:41:13:045:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-13:41:13:046:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-13:41:13:046:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-13:41:13:046:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-13:41:13:046:					>> fnStatusPortaSerial()
+16/01/2015-13:41:13:046:						Verificando status da porta COM4
+16/01/2015-13:41:13:046:						>> esAbrirSerial(COM4)
+16/01/2015-13:41:13:046:							>> fnTentarAbrirSerial(4)
+16/01/2015-13:41:13:046:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-13:41:13:047:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-13:41:13:047:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-13:41:13:047:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-13:41:13:047:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-13:41:13:047:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-13:41:13:047:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-13:41:13:047:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-13:41:13:048:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-13:41:13:048:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:41:13:048:	-----------------------------------------------------
+
+16/01/2015-13:41:13:048:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:42:38:205:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-13:42:38:205:	-----------------------------------------------------
+
+16/01/2015-13:42:38:205:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:42:38:208:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-13:42:38:208:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-13:42:38:208:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:42:38:209:	-----------------------------------------------------
+
+16/01/2015-13:42:38:209:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:42:38:218:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:42:38:218:	-----------------------------------------------------
+
+16/01/2015-13:42:38:218:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:42:38:231:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:42:38:231:	-----------------------------------------------------
+
+16/01/2015-13:42:38:231:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:42:38:245:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-13:42:38:245:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-13:42:38:245:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-13:42:38:245:						Checksum (²) - Quant (1)
+16/01/2015-13:42:38:245:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-13:42:38:245:						>> esAbrirSerial(COM4)
+16/01/2015-13:42:38:245:							>> fnTentarAbrirSerial(4)
+16/01/2015-13:42:38:246:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-13:42:38:246:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-13:42:38:246:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-13:42:38:246:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-13:42:38:246:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-13:42:38:246:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-13:42:38:246:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-13:42:38:247:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-13:42:38:247:					>> fnStatusPortaSerial()
+16/01/2015-13:42:38:247:						Verificando status da porta COM4
+16/01/2015-13:42:38:247:						>> esAbrirSerial(COM4)
+16/01/2015-13:42:38:247:							>> fnTentarAbrirSerial(4)
+16/01/2015-13:42:38:247:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-13:42:38:247:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-13:42:38:247:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-13:42:38:248:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-13:42:38:248:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-13:42:38:248:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-13:42:38:248:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-13:42:38:248:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-13:42:38:248:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-13:42:38:248:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:42:38:249:	-----------------------------------------------------
+
+16/01/2015-13:42:38:249:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:44:43:482:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-13:44:43:482:	-----------------------------------------------------
+
+16/01/2015-13:44:43:483:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:44:43:488:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-13:44:43:488:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-13:44:43:488:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:44:43:488:	-----------------------------------------------------
+
+16/01/2015-13:44:43:489:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:44:43:507:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:44:43:507:	-----------------------------------------------------
+
+16/01/2015-13:44:43:507:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:44:43:526:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:44:43:526:	-----------------------------------------------------
+
+16/01/2015-13:44:43:526:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:44:43:542:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-13:44:43:542:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-13:44:43:543:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-13:44:43:543:						Checksum (²) - Quant (1)
+16/01/2015-13:44:43:543:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-13:44:43:543:						>> esAbrirSerial(COM4)
+16/01/2015-13:44:43:543:							>> fnTentarAbrirSerial(4)
+16/01/2015-13:44:43:543:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-13:44:43:544:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-13:44:43:544:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-13:44:43:544:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-13:44:43:544:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-13:44:43:544:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-13:44:43:544:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-13:44:43:545:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-13:44:43:545:					>> fnStatusPortaSerial()
+16/01/2015-13:44:43:545:						Verificando status da porta COM4
+16/01/2015-13:44:43:545:						>> esAbrirSerial(COM4)
+16/01/2015-13:44:43:545:							>> fnTentarAbrirSerial(4)
+16/01/2015-13:44:43:545:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-13:44:43:546:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-13:44:43:546:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-13:44:43:546:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-13:44:43:546:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-13:44:43:546:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-13:44:43:546:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-13:44:43:547:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-13:44:43:547:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-13:44:43:547:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:44:43:547:	-----------------------------------------------------
+
+16/01/2015-13:44:43:547:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:45:54:011:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-13:45:54:011:	-----------------------------------------------------
+
+16/01/2015-13:45:54:011:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:45:54:016:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-13:45:54:016:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-13:45:54:017:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:45:54:017:	-----------------------------------------------------
+
+16/01/2015-13:45:54:017:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:45:54:034:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:45:54:035:	-----------------------------------------------------
+
+16/01/2015-13:45:54:035:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:45:54:053:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:45:54:053:	-----------------------------------------------------
+
+16/01/2015-13:45:54:054:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-13:45:54:067:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-13:45:54:067:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-13:45:54:067:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-13:45:54:068:						Checksum (²) - Quant (1)
+16/01/2015-13:45:54:068:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-13:45:54:068:						>> esAbrirSerial(COM4)
+16/01/2015-13:45:54:068:							>> fnTentarAbrirSerial(4)
+16/01/2015-13:45:54:068:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-13:45:54:068:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-13:45:54:068:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-13:45:54:069:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-13:45:54:069:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-13:45:54:069:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-13:45:54:069:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-13:45:54:069:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-13:45:54:069:					>> fnStatusPortaSerial()
+16/01/2015-13:45:54:069:						Verificando status da porta COM4
+16/01/2015-13:45:54:070:						>> esAbrirSerial(COM4)
+16/01/2015-13:45:54:070:							>> fnTentarAbrirSerial(4)
+16/01/2015-13:45:54:070:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-13:45:54:070:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-13:45:54:070:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-13:45:54:070:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-13:45:54:070:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-13:45:54:071:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-13:45:54:071:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-13:45:54:071:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-13:45:54:071:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-13:45:54:071:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-13:45:54:071:	-----------------------------------------------------
+
+16/01/2015-13:45:54:071:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:10:17:004:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-14:10:17:004:	-----------------------------------------------------
+
+16/01/2015-14:10:17:005:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:10:17:007:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-14:10:17:007:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-14:10:17:008:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:10:17:008:	-----------------------------------------------------
+
+16/01/2015-14:10:17:008:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:10:17:018:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:10:17:019:	-----------------------------------------------------
+
+16/01/2015-14:10:17:019:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:10:17:031:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:10:17:031:	-----------------------------------------------------
+
+16/01/2015-14:10:17:031:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:10:17:044:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-14:10:17:045:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-14:10:17:045:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-14:10:17:045:						Checksum (²) - Quant (1)
+16/01/2015-14:10:17:045:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-14:10:17:045:						>> esAbrirSerial(COM4)
+16/01/2015-14:10:17:045:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:10:17:045:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:10:17:046:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:10:17:046:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:10:17:046:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:10:17:046:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:10:17:046:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-14:10:17:046:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-14:10:17:046:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-14:10:17:047:					>> fnStatusPortaSerial()
+16/01/2015-14:10:17:047:						Verificando status da porta COM4
+16/01/2015-14:10:17:047:						>> esAbrirSerial(COM4)
+16/01/2015-14:10:17:047:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:10:17:047:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:10:17:047:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:10:17:047:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:10:17:048:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:10:17:048:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:10:17:048:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-14:10:17:048:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:10:17:048:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:10:17:048:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-14:10:17:048:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:10:17:048:	-----------------------------------------------------
+
+16/01/2015-14:10:17:049:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:10:43:230:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-14:10:43:230:	-----------------------------------------------------
+
+16/01/2015-14:10:43:231:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:10:43:235:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-14:10:43:236:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-14:10:43:236:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:10:43:236:	-----------------------------------------------------
+
+16/01/2015-14:10:43:236:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:10:43:253:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:10:43:253:	-----------------------------------------------------
+
+16/01/2015-14:10:43:253:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:10:43:265:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:10:43:265:	-----------------------------------------------------
+
+16/01/2015-14:10:43:265:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:10:43:278:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-14:10:43:279:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-14:10:43:279:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-14:10:43:279:						Checksum (²) - Quant (1)
+16/01/2015-14:10:43:279:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-14:10:43:279:						>> esAbrirSerial(COM4)
+16/01/2015-14:10:43:279:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:10:43:279:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:10:43:280:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:10:43:280:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:10:43:280:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:10:43:280:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:10:43:280:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-14:10:43:280:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-14:10:43:280:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-14:10:43:281:					>> fnStatusPortaSerial()
+16/01/2015-14:10:43:281:						Verificando status da porta COM4
+16/01/2015-14:10:43:281:						>> esAbrirSerial(COM4)
+16/01/2015-14:10:43:281:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:10:43:281:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:10:43:281:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:10:43:281:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:10:43:282:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:10:43:282:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:10:43:282:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-14:10:43:282:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:10:43:282:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:10:43:282:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-14:10:43:282:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:10:43:282:	-----------------------------------------------------
+
+16/01/2015-14:10:43:283:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:13:51:770:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-14:13:51:771:	-----------------------------------------------------
+
+16/01/2015-14:13:51:771:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:13:51:774:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-14:13:51:774:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-14:13:51:774:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:13:51:774:	-----------------------------------------------------
+
+16/01/2015-14:13:51:774:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:13:51:784:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:13:51:784:	-----------------------------------------------------
+
+16/01/2015-14:13:51:784:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:13:51:796:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:13:51:796:	-----------------------------------------------------
+
+16/01/2015-14:13:51:796:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:13:51:810:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-14:13:51:810:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-14:13:51:810:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-14:13:51:810:						Checksum (²) - Quant (1)
+16/01/2015-14:13:51:811:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-14:13:51:811:						>> esAbrirSerial(COM4)
+16/01/2015-14:13:51:811:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:13:51:811:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:13:51:811:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:13:51:811:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:13:51:812:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:13:51:812:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:13:51:812:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-14:13:51:812:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-14:13:51:812:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-14:13:51:812:					>> fnStatusPortaSerial()
+16/01/2015-14:13:51:812:						Verificando status da porta COM4
+16/01/2015-14:13:51:813:						>> esAbrirSerial(COM4)
+16/01/2015-14:13:51:813:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:13:51:813:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:13:51:813:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:13:51:813:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:13:51:813:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:13:51:813:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:13:51:814:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-14:13:51:814:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:13:51:814:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:13:51:814:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-14:13:51:814:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:13:51:814:	-----------------------------------------------------
+
+16/01/2015-14:13:51:814:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:15:36:515:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-14:15:36:516:	-----------------------------------------------------
+
+16/01/2015-14:15:36:516:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:15:36:522:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-14:15:36:522:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-14:15:36:522:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:15:36:522:	-----------------------------------------------------
+
+16/01/2015-14:15:36:523:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:15:36:537:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:15:36:537:	-----------------------------------------------------
+
+16/01/2015-14:15:36:538:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:15:36:552:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:15:36:552:	-----------------------------------------------------
+
+16/01/2015-14:15:36:552:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:15:36:568:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-14:15:36:568:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-14:15:36:569:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-14:15:36:569:						Checksum (²) - Quant (1)
+16/01/2015-14:15:36:569:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-14:15:36:569:						>> esAbrirSerial(COM4)
+16/01/2015-14:15:36:569:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:15:36:570:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:15:36:570:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:15:36:570:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:15:36:570:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:15:36:570:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:15:36:571:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-14:15:36:571:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-14:15:36:571:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-14:15:36:571:					>> fnStatusPortaSerial()
+16/01/2015-14:15:36:571:						Verificando status da porta COM4
+16/01/2015-14:15:36:572:						>> esAbrirSerial(COM4)
+16/01/2015-14:15:36:572:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:15:36:572:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:15:36:572:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:15:36:572:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:15:36:573:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:15:36:573:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:15:36:573:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-14:15:36:573:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:15:36:573:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:15:36:574:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-14:15:36:574:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:15:36:574:	-----------------------------------------------------
+
+16/01/2015-14:15:36:574:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:24:46:004:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-14:24:46:004:	-----------------------------------------------------
+
+16/01/2015-14:24:46:004:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:24:46:007:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-14:24:46:007:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-14:24:46:007:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:24:46:007:	-----------------------------------------------------
+
+16/01/2015-14:24:46:007:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:24:46:017:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:24:46:017:	-----------------------------------------------------
+
+16/01/2015-14:24:46:017:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:24:46:029:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:24:46:029:	-----------------------------------------------------
+
+16/01/2015-14:24:46:029:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:24:46:043:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-14:24:46:043:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-14:24:46:043:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-14:24:46:043:						Checksum (²) - Quant (1)
+16/01/2015-14:24:46:043:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-14:24:46:043:						>> esAbrirSerial(COM4)
+16/01/2015-14:24:46:043:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:24:46:044:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:24:46:044:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:24:46:044:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:24:46:044:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:24:46:044:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:24:46:044:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-14:24:46:045:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-14:24:46:045:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-14:24:46:045:					>> fnStatusPortaSerial()
+16/01/2015-14:24:46:045:						Verificando status da porta COM4
+16/01/2015-14:24:46:045:						>> esAbrirSerial(COM4)
+16/01/2015-14:24:46:045:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:24:46:045:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:24:46:045:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:24:46:046:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:24:46:046:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:24:46:046:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:24:46:046:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-14:24:46:046:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:24:46:046:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:24:46:046:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-14:24:46:047:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:24:46:047:	-----------------------------------------------------
+
+16/01/2015-14:24:46:047:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:28:25:821:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-14:28:25:821:	-----------------------------------------------------
+
+16/01/2015-14:28:25:821:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:28:25:824:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-14:28:25:824:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-14:28:25:825:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:28:25:825:	-----------------------------------------------------
+
+16/01/2015-14:28:25:825:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:28:25:836:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:28:25:837:	-----------------------------------------------------
+
+16/01/2015-14:28:25:837:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:28:25:851:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:28:25:851:	-----------------------------------------------------
+
+16/01/2015-14:28:25:851:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:28:25:865:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-14:28:25:865:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-14:28:25:865:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-14:28:25:865:						Checksum (²) - Quant (1)
+16/01/2015-14:28:25:866:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-14:28:25:866:						>> esAbrirSerial(COM4)
+16/01/2015-14:28:25:866:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:28:25:866:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:28:25:866:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:28:25:866:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:28:25:867:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:28:25:867:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:28:25:867:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-14:28:25:867:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-14:28:25:867:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-14:28:25:867:					>> fnStatusPortaSerial()
+16/01/2015-14:28:25:867:						Verificando status da porta COM4
+16/01/2015-14:28:25:868:						>> esAbrirSerial(COM4)
+16/01/2015-14:28:25:868:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:28:25:868:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:28:25:868:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:28:25:868:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:28:25:868:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:28:25:868:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:28:25:869:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-14:28:25:869:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:28:25:869:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:28:25:869:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-14:28:25:869:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:28:25:869:	-----------------------------------------------------
+
+16/01/2015-14:28:25:869:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:28:55:609:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-14:28:55:609:	-----------------------------------------------------
+
+16/01/2015-14:28:55:609:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:28:55:615:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-14:28:55:615:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-14:28:55:615:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:28:55:615:	-----------------------------------------------------
+
+16/01/2015-14:28:55:615:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:28:55:634:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:28:55:634:	-----------------------------------------------------
+
+16/01/2015-14:28:55:634:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:28:55:648:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:28:55:648:	-----------------------------------------------------
+
+16/01/2015-14:28:55:649:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:28:55:662:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-14:28:55:662:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-14:28:55:663:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-14:28:55:663:						Checksum (²) - Quant (1)
+16/01/2015-14:28:55:663:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-14:28:55:663:						>> esAbrirSerial(COM4)
+16/01/2015-14:28:55:663:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:28:55:663:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:28:55:664:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:28:55:664:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:28:55:664:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:28:55:664:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:28:55:664:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-14:28:55:664:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-14:28:55:664:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-14:28:55:665:					>> fnStatusPortaSerial()
+16/01/2015-14:28:55:665:						Verificando status da porta COM4
+16/01/2015-14:28:55:665:						>> esAbrirSerial(COM4)
+16/01/2015-14:28:55:665:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:28:55:665:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:28:55:665:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:28:55:665:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:28:55:666:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:28:55:666:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:28:55:666:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-14:28:55:666:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:28:55:666:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:28:55:666:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-14:28:55:666:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:28:55:667:	-----------------------------------------------------
+
+16/01/2015-14:28:55:667:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:29:44:964:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-14:29:44:964:	-----------------------------------------------------
+
+16/01/2015-14:29:44:965:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:29:44:970:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-14:29:44:970:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-14:29:44:971:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:29:44:971:	-----------------------------------------------------
+
+16/01/2015-14:29:44:971:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:29:44:990:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:29:44:990:	-----------------------------------------------------
+
+16/01/2015-14:29:44:990:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:29:45:002:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:29:45:002:	-----------------------------------------------------
+
+16/01/2015-14:29:45:003:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:29:45:016:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-14:29:45:016:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-14:29:45:017:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-14:29:45:017:						Checksum (²) - Quant (1)
+16/01/2015-14:29:45:017:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-14:29:45:017:						>> esAbrirSerial(COM4)
+16/01/2015-14:29:45:017:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:29:45:017:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:29:45:018:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:29:45:018:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:29:45:018:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:29:45:018:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:29:45:018:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-14:29:45:019:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-14:29:45:019:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-14:29:45:019:					>> fnStatusPortaSerial()
+16/01/2015-14:29:45:019:						Verificando status da porta COM4
+16/01/2015-14:29:45:019:						>> esAbrirSerial(COM4)
+16/01/2015-14:29:45:019:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:29:45:020:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:29:45:020:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:29:45:020:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:29:45:020:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:29:45:020:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:29:45:020:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-14:29:45:021:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:29:45:021:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:29:45:021:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-14:29:45:021:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:29:45:021:	-----------------------------------------------------
+
+16/01/2015-14:29:45:021:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:30:09:640:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-14:30:09:640:	-----------------------------------------------------
+
+16/01/2015-14:30:09:641:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:30:09:646:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-14:30:09:646:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-14:30:09:647:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:30:09:647:	-----------------------------------------------------
+
+16/01/2015-14:30:09:647:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:30:09:660:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:30:09:660:	-----------------------------------------------------
+
+16/01/2015-14:30:09:660:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:30:09:675:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:30:09:675:	-----------------------------------------------------
+
+16/01/2015-14:30:09:675:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-14:30:09:692:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-14:30:09:692:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-14:30:09:693:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-14:30:09:693:						Checksum (²) - Quant (1)
+16/01/2015-14:30:09:693:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-14:30:09:693:						>> esAbrirSerial(COM4)
+16/01/2015-14:30:09:693:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:30:09:694:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:30:09:694:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:30:09:694:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:30:09:694:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:30:09:694:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:30:09:695:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-14:30:09:695:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-14:30:09:695:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-14:30:09:695:					>> fnStatusPortaSerial()
+16/01/2015-14:30:09:695:						Verificando status da porta COM4
+16/01/2015-14:30:09:695:						>> esAbrirSerial(COM4)
+16/01/2015-14:30:09:696:							>> fnTentarAbrirSerial(4)
+16/01/2015-14:30:09:696:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-14:30:09:696:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-14:30:09:696:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-14:30:09:696:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-14:30:09:697:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-14:30:09:697:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-14:30:09:697:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:30:09:697:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-14:30:09:697:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-14:30:09:697:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-14:30:09:698:	-----------------------------------------------------
+
+16/01/2015-14:30:09:698:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-16:29:13:004:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-16:29:13:004:	-----------------------------------------------------
+
+16/01/2015-16:29:13:005:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-16:29:13:008:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-16:29:13:008:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-16:29:13:008:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-16:29:13:008:	-----------------------------------------------------
+
+16/01/2015-16:29:13:008:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-16:29:13:018:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-16:29:13:018:	-----------------------------------------------------
+
+16/01/2015-16:29:13:018:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-16:29:13:031:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-16:29:13:031:	-----------------------------------------------------
+
+16/01/2015-16:29:13:031:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-16:29:13:045:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-16:29:13:045:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-16:29:13:045:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-16:29:13:046:						Checksum (²) - Quant (1)
+16/01/2015-16:29:13:046:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-16:29:13:046:						>> esAbrirSerial(COM4)
+16/01/2015-16:29:13:046:							>> fnTentarAbrirSerial(4)
+16/01/2015-16:29:13:046:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-16:29:13:046:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-16:29:13:046:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-16:29:13:047:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-16:29:13:047:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-16:29:13:047:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-16:29:13:047:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-16:29:13:047:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-16:29:13:047:					>> fnStatusPortaSerial()
+16/01/2015-16:29:13:047:						Verificando status da porta COM4
+16/01/2015-16:29:13:048:						>> esAbrirSerial(COM4)
+16/01/2015-16:29:13:048:							>> fnTentarAbrirSerial(4)
+16/01/2015-16:29:13:048:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-16:29:13:048:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-16:29:13:048:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-16:29:13:048:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-16:29:13:048:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-16:29:13:049:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-16:29:13:049:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-16:29:13:049:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-16:29:13:049:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-16:29:13:049:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-16:29:13:049:	-----------------------------------------------------
+
+16/01/2015-16:29:13:049:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-16:29:58:274:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+16/01/2015-16:29:58:274:	-----------------------------------------------------
+
+16/01/2015-16:29:58:275:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-16:29:58:280:		>> fnXML_START_DefinirProduto(FISCAL)
+16/01/2015-16:29:58:280:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+16/01/2015-16:29:58:281:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-16:29:58:281:	-----------------------------------------------------
+
+16/01/2015-16:29:58:281:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-16:29:58:300:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-16:29:58:300:	-----------------------------------------------------
+
+16/01/2015-16:29:58:301:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-16:29:58:314:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-16:29:58:314:	-----------------------------------------------------
+
+16/01/2015-16:29:58:314:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+16/01/2015-16:29:58:329:		>> fnXML_ECF_Velocidade(115200)
+16/01/2015-16:29:58:330:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+16/01/2015-16:29:58:330:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+16/01/2015-16:29:58:330:						Checksum (²) - Quant (1)
+16/01/2015-16:29:58:330:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+16/01/2015-16:29:58:330:						>> esAbrirSerial(COM4)
+16/01/2015-16:29:58:330:							>> fnTentarAbrirSerial(4)
+16/01/2015-16:29:58:331:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-16:29:58:331:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-16:29:58:331:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-16:29:58:331:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-16:29:58:331:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-16:29:58:331:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+16/01/2015-16:29:58:332:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+16/01/2015-16:29:58:332:				>> fnVerificarPortaSerial_ECF()
+16/01/2015-16:29:58:332:					>> fnStatusPortaSerial()
+16/01/2015-16:29:58:332:						Verificando status da porta COM4
+16/01/2015-16:29:58:332:						>> esAbrirSerial(COM4)
+16/01/2015-16:29:58:332:							>> fnTentarAbrirSerial(4)
+16/01/2015-16:29:58:333:								G_stPortaSerial - INVALID_HANDLE_VALUE
+16/01/2015-16:29:58:333:								Criou o handle - fnTentarAbrirSerial
+16/01/2015-16:29:58:333:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+16/01/2015-16:29:58:333:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+16/01/2015-16:29:58:333:						<< esAbrirSerial - RETORNO NUMERO: -9
+16/01/2015-16:29:58:333:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+16/01/2015-16:29:58:334:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-16:29:58:334:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+16/01/2015-16:29:58:334:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+16/01/2015-16:29:58:334:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+16/01/2015-16:29:58:334:	-----------------------------------------------------
+
+16/01/2015-16:29:58:334:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+05/05/2015-14:40:20:003:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+05/05/2015-14:40:20:015:	-----------------------------------------------------
+
+05/05/2015-14:40:20:015:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+05/05/2015-14:40:20:018:		>> fnXML_START_DefinirProduto(FISCAL)
+05/05/2015-14:40:20:018:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+05/05/2015-14:40:20:018:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+05/05/2015-14:40:20:018:	-----------------------------------------------------
+
+05/05/2015-14:40:20:018:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+05/05/2015-14:40:20:028:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+05/05/2015-14:40:20:028:	-----------------------------------------------------
+
+05/05/2015-14:40:20:028:	>> fnXML_AlterarValor(ECF\PortaSerial, COM4, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+05/05/2015-14:40:20:039:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+05/05/2015-14:40:20:040:	-----------------------------------------------------
+
+05/05/2015-14:40:20:040:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+05/05/2015-14:40:20:053:		>> fnXML_ECF_Velocidade(115200)
+05/05/2015-14:40:20:054:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+05/05/2015-14:40:20:054:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+05/05/2015-14:40:20:054:						Checksum (² == 178) - Quant (1)
+05/05/2015-14:40:20:054:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+05/05/2015-14:40:20:054:						>> fnModoEscrita(COM4)
+05/05/2015-14:40:20:054:							G_iModoEscritaPorta = 2
+05/05/2015-14:40:20:054:						<< fnModoEscrita - RETORNO NUMERO: 1
+05/05/2015-14:40:20:055:						>> esAbrirSerial(COM4)
+05/05/2015-14:40:20:055:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+05/05/2015-14:40:20:055:							>> fnTentarAbrirSerial(COM4)
+05/05/2015-14:40:20:055:								G_stPortaSerial - INVALID_HANDLE_VALUE
+05/05/2015-14:40:20:055:								Criou o handle - fnTentarAbrirSerial
+05/05/2015-14:40:20:055:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+05/05/2015-14:40:20:056:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+05/05/2015-14:40:20:056:						<< esAbrirSerial - RETORNO NUMERO: -9
+05/05/2015-14:40:20:056:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+05/05/2015-14:40:20:056:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+05/05/2015-14:40:20:056:				>> fnVerificarPortaSerial_ECF()
+05/05/2015-14:40:20:056:					>> fnStatusPortaSerial()
+05/05/2015-14:40:20:057:						Verificando status da porta COM4
+05/05/2015-14:40:20:057:						>> esAbrirSerial(COM4)
+05/05/2015-14:40:20:057:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+05/05/2015-14:40:20:057:							>> fnTentarAbrirSerial(COM4)
+05/05/2015-14:40:20:057:								G_stPortaSerial - INVALID_HANDLE_VALUE
+05/05/2015-14:40:20:057:								Criou o handle - fnTentarAbrirSerial
+05/05/2015-14:40:20:058:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+05/05/2015-14:40:20:058:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+05/05/2015-14:40:20:058:						<< esAbrirSerial - RETORNO NUMERO: -9
+05/05/2015-14:40:20:058:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+05/05/2015-14:40:20:058:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+05/05/2015-14:40:20:058:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+05/05/2015-14:40:20:058:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+05/05/2015-14:40:20:059:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+05/05/2015-14:40:20:059:	-----------------------------------------------------
+
+05/05/2015-14:40:20:059:	>> fnXML_AlterarValor(START\LocalArquivos, espelhoECF/, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+05/05/2015-14:40:20:059:		>> fnXML_START_PathLocalArquivos(espelhoECF/)
+05/05/2015-14:40:20:059:			>> fnXML_START_PathPadrao(espelhoECF/)
+05/05/2015-14:40:20:059:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-15:24:13:042:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-15:24:13:042:	-----------------------------------------------------
+
+19/04/2016-15:24:13:043:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:24:13:046:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-15:24:13:046:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-15:24:13:046:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:24:13:046:	-----------------------------------------------------
+
+19/04/2016-15:24:13:047:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:24:13:058:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:24:13:058:	-----------------------------------------------------
+
+19/04/2016-15:24:13:058:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:24:13:070:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:24:13:071:	-----------------------------------------------------
+
+19/04/2016-15:24:13:071:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:24:13:086:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-15:24:13:086:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-15:24:13:086:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-15:24:13:086:						Checksum (² == 178) - Quant (1)
+19/04/2016-15:24:13:087:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-15:24:13:087:						>> fnModoEscrita(COM2)
+19/04/2016-15:24:13:087:							G_iModoEscritaPorta = 2
+19/04/2016-15:24:13:087:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-15:24:13:088:						>> esAbrirSerial(COM2)
+19/04/2016-15:24:13:088:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:24:13:088:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:24:13:088:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:24:13:088:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:24:13:089:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:24:13:089:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:24:13:089:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:24:13:089:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-15:24:13:089:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-15:24:13:090:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-15:24:13:090:					>> fnStatusPortaSerial()
+19/04/2016-15:24:13:090:						Verificando status da porta COM2
+19/04/2016-15:24:13:091:						>> esAbrirSerial(COM2)
+19/04/2016-15:24:13:091:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:24:13:091:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:24:13:091:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:24:13:092:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:24:13:092:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:24:13:092:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:24:13:092:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:24:13:093:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-15:24:13:093:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:24:13:093:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:24:13:093:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-15:24:13:093:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:24:13:093:	-----------------------------------------------------
+
+19/04/2016-15:24:13:094:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:24:13:094:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-15:24:13:094:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-15:24:13:094:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-15:25:06:119:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-15:25:06:119:	-----------------------------------------------------
+
+19/04/2016-15:25:06:119:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:25:06:122:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-15:25:06:122:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-15:25:06:122:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:25:06:122:	-----------------------------------------------------
+
+19/04/2016-15:25:06:123:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:25:06:133:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:25:06:133:	-----------------------------------------------------
+
+19/04/2016-15:25:06:133:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:25:06:145:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:25:06:146:	-----------------------------------------------------
+
+19/04/2016-15:25:06:146:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:25:06:160:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-15:25:06:160:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-15:25:06:160:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-15:25:06:160:						Checksum (² == 178) - Quant (1)
+19/04/2016-15:25:06:161:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-15:25:06:161:						>> fnModoEscrita(COM2)
+19/04/2016-15:25:06:161:							G_iModoEscritaPorta = 2
+19/04/2016-15:25:06:161:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-15:25:06:161:						>> esAbrirSerial(COM2)
+19/04/2016-15:25:06:161:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:25:06:162:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:25:06:162:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:25:06:162:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:25:06:162:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:25:06:162:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:25:06:162:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:25:06:163:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-15:25:06:163:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-15:25:06:163:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-15:25:06:163:					>> fnStatusPortaSerial()
+19/04/2016-15:25:06:163:						Verificando status da porta COM2
+19/04/2016-15:25:06:163:						>> esAbrirSerial(COM2)
+19/04/2016-15:25:06:163:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:25:06:164:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:25:06:164:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:25:06:164:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:25:06:164:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:25:06:164:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:25:06:164:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:25:06:165:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-15:25:06:165:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:25:06:165:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:25:06:165:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-15:25:06:165:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:25:06:165:	-----------------------------------------------------
+
+19/04/2016-15:25:06:166:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:25:06:166:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-15:25:06:166:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-15:25:06:166:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-15:25:42:803:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-15:25:42:803:	-----------------------------------------------------
+
+19/04/2016-15:25:42:804:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:25:42:807:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-15:25:42:807:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-15:25:42:807:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:25:42:807:	-----------------------------------------------------
+
+19/04/2016-15:25:42:808:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:25:42:818:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:25:42:818:	-----------------------------------------------------
+
+19/04/2016-15:25:42:819:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:25:42:831:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:25:42:831:	-----------------------------------------------------
+
+19/04/2016-15:25:42:831:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:25:42:875:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-15:25:42:875:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-15:25:42:875:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-15:25:42:876:						Checksum (² == 178) - Quant (1)
+19/04/2016-15:25:42:876:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-15:25:42:876:						>> fnModoEscrita(COM2)
+19/04/2016-15:25:42:876:							G_iModoEscritaPorta = 2
+19/04/2016-15:25:42:877:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-15:25:42:877:						>> esAbrirSerial(COM2)
+19/04/2016-15:25:42:877:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:25:42:877:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:25:42:878:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:25:42:878:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:25:42:878:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:25:42:879:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:25:42:879:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:25:42:879:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-15:25:42:880:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-15:25:42:880:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-15:25:42:880:					>> fnStatusPortaSerial()
+19/04/2016-15:25:42:881:						Verificando status da porta COM2
+19/04/2016-15:25:42:881:						>> esAbrirSerial(COM2)
+19/04/2016-15:25:42:881:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:25:42:881:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:25:42:881:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:25:42:882:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:25:42:882:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:25:42:882:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:25:42:882:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:25:42:883:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-15:25:42:883:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:25:42:883:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:25:42:883:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-15:25:42:883:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:25:42:884:	-----------------------------------------------------
+
+19/04/2016-15:25:42:884:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:25:42:884:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-15:25:42:884:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-15:25:42:885:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-15:29:56:003:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-15:29:56:004:	-----------------------------------------------------
+
+19/04/2016-15:29:56:004:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:29:56:007:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-15:29:56:007:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-15:29:56:007:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:29:56:007:	-----------------------------------------------------
+
+19/04/2016-15:29:56:007:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:29:56:017:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:29:56:018:	-----------------------------------------------------
+
+19/04/2016-15:29:56:018:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:29:56:030:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:29:56:030:	-----------------------------------------------------
+
+19/04/2016-15:29:56:030:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:29:56:045:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-15:29:56:045:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-15:29:56:045:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-15:29:56:045:						Checksum (² == 178) - Quant (1)
+19/04/2016-15:29:56:045:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-15:29:56:046:						>> fnModoEscrita(COM2)
+19/04/2016-15:29:56:046:							G_iModoEscritaPorta = 2
+19/04/2016-15:29:56:046:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-15:29:56:046:						>> esAbrirSerial(COM2)
+19/04/2016-15:29:56:046:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:29:56:047:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:29:56:047:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:29:56:047:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:29:56:047:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:29:56:047:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:29:56:048:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:29:56:048:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-15:29:56:048:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-15:29:56:048:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-15:29:56:048:					>> fnStatusPortaSerial()
+19/04/2016-15:29:56:048:						Verificando status da porta COM2
+19/04/2016-15:29:56:049:						>> esAbrirSerial(COM2)
+19/04/2016-15:29:56:049:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:29:56:049:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:29:56:049:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:29:56:049:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:29:56:049:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:29:56:050:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:29:56:050:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:29:56:050:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-15:29:56:050:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:29:56:050:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:29:56:050:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-15:29:56:051:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:29:56:051:	-----------------------------------------------------
+
+19/04/2016-15:29:56:051:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:29:56:051:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-15:29:56:051:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-15:29:56:051:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-15:30:37:472:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-15:30:37:472:	-----------------------------------------------------
+
+19/04/2016-15:30:37:472:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:30:37:478:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-15:30:37:478:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-15:30:37:478:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:30:37:478:	-----------------------------------------------------
+
+19/04/2016-15:30:37:479:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:30:37:497:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:30:37:497:	-----------------------------------------------------
+
+19/04/2016-15:30:37:497:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:30:37:516:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:30:37:516:	-----------------------------------------------------
+
+19/04/2016-15:30:37:516:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:30:37:530:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-15:30:37:530:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-15:30:37:530:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-15:30:37:531:						Checksum (² == 178) - Quant (1)
+19/04/2016-15:30:37:531:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-15:30:37:531:						>> fnModoEscrita(COM2)
+19/04/2016-15:30:37:531:							G_iModoEscritaPorta = 2
+19/04/2016-15:30:37:531:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-15:30:37:531:						>> esAbrirSerial(COM2)
+19/04/2016-15:30:37:531:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:30:37:532:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:30:37:532:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:30:37:532:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:30:37:532:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:30:37:532:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:30:37:532:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:30:37:533:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-15:30:37:533:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-15:30:37:533:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-15:30:37:533:					>> fnStatusPortaSerial()
+19/04/2016-15:30:37:533:						Verificando status da porta COM2
+19/04/2016-15:30:37:533:						>> esAbrirSerial(COM2)
+19/04/2016-15:30:37:533:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:30:37:534:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:30:37:534:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:30:37:534:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:30:37:534:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:30:37:534:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:30:37:534:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:30:37:534:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-15:30:37:535:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:30:37:535:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:30:37:535:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-15:30:37:535:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:30:37:535:	-----------------------------------------------------
+
+19/04/2016-15:30:37:535:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:30:37:535:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-15:30:37:536:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-15:30:37:536:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-15:37:09:003:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-15:37:09:003:	-----------------------------------------------------
+
+19/04/2016-15:37:09:004:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:37:09:006:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-15:37:09:006:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-15:37:09:007:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:37:09:007:	-----------------------------------------------------
+
+19/04/2016-15:37:09:007:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:37:09:017:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:37:09:017:	-----------------------------------------------------
+
+19/04/2016-15:37:09:017:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:37:09:029:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:37:09:029:	-----------------------------------------------------
+
+19/04/2016-15:37:09:029:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:37:09:043:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-15:37:09:043:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-15:37:09:044:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-15:37:09:044:						Checksum (² == 178) - Quant (1)
+19/04/2016-15:37:09:044:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-15:37:09:044:						>> fnModoEscrita(COM2)
+19/04/2016-15:37:09:044:							G_iModoEscritaPorta = 2
+19/04/2016-15:37:09:044:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-15:37:09:045:						>> esAbrirSerial(COM2)
+19/04/2016-15:37:09:045:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:37:09:045:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:37:09:045:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:37:09:045:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:37:09:045:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:37:09:046:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:37:09:046:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:37:09:046:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-15:37:09:046:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-15:37:09:046:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-15:37:09:046:					>> fnStatusPortaSerial()
+19/04/2016-15:37:09:046:						Verificando status da porta COM2
+19/04/2016-15:37:09:047:						>> esAbrirSerial(COM2)
+19/04/2016-15:37:09:047:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:37:09:047:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:37:09:047:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:37:09:047:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:37:09:048:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:37:09:048:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:37:09:048:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:37:09:048:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-15:37:09:048:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:37:09:048:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:37:09:049:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-15:37:09:049:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:37:09:049:	-----------------------------------------------------
+
+19/04/2016-15:37:09:049:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:37:09:049:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-15:37:09:049:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-15:37:09:049:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-15:41:05:117:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-15:41:05:117:	-----------------------------------------------------
+
+19/04/2016-15:41:05:117:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:41:05:123:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-15:41:05:123:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-15:41:05:123:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:41:05:124:	-----------------------------------------------------
+
+19/04/2016-15:41:05:124:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:41:05:142:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:41:05:142:	-----------------------------------------------------
+
+19/04/2016-15:41:05:143:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:41:05:156:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:41:05:156:	-----------------------------------------------------
+
+19/04/2016-15:41:05:156:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:41:05:171:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-15:41:05:171:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-15:41:05:171:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-15:41:05:172:						Checksum (² == 178) - Quant (1)
+19/04/2016-15:41:05:172:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-15:41:05:172:						>> fnModoEscrita(COM2)
+19/04/2016-15:41:05:172:							G_iModoEscritaPorta = 2
+19/04/2016-15:41:05:172:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-15:41:05:172:						>> esAbrirSerial(COM2)
+19/04/2016-15:41:05:173:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:41:05:173:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:41:05:173:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:41:05:173:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:41:05:173:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:41:05:174:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:41:05:174:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:41:05:174:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-15:41:05:174:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-15:41:05:174:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-15:41:05:174:					>> fnStatusPortaSerial()
+19/04/2016-15:41:05:175:						Verificando status da porta COM2
+19/04/2016-15:41:05:175:						>> esAbrirSerial(COM2)
+19/04/2016-15:41:05:175:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:41:05:175:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:41:05:175:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:41:05:176:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:41:05:176:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:41:05:176:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:41:05:176:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:41:05:176:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-15:41:05:176:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:41:05:177:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:41:05:177:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-15:41:05:177:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:41:05:177:	-----------------------------------------------------
+
+19/04/2016-15:41:05:177:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:41:05:177:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-15:41:05:178:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-15:41:05:178:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-15:54:17:459:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-15:54:17:459:	-----------------------------------------------------
+
+19/04/2016-15:54:17:459:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:54:17:462:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-15:54:17:462:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-15:54:17:462:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:54:17:463:	-----------------------------------------------------
+
+19/04/2016-15:54:17:463:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:54:17:473:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:54:17:473:	-----------------------------------------------------
+
+19/04/2016-15:54:17:473:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:54:17:485:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:54:17:486:	-----------------------------------------------------
+
+19/04/2016-15:54:17:486:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:54:17:500:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-15:54:17:500:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-15:54:17:500:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-15:54:17:500:						Checksum (² == 178) - Quant (1)
+19/04/2016-15:54:17:500:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-15:54:17:501:						>> fnModoEscrita(COM2)
+19/04/2016-15:54:17:501:							G_iModoEscritaPorta = 2
+19/04/2016-15:54:17:501:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-15:54:17:501:						>> esAbrirSerial(COM2)
+19/04/2016-15:54:17:501:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:54:17:501:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:54:17:502:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:54:17:502:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:54:17:502:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:54:17:502:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:54:17:502:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:54:17:503:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-15:54:17:503:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-15:54:17:503:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-15:54:17:503:					>> fnStatusPortaSerial()
+19/04/2016-15:54:17:503:						Verificando status da porta COM2
+19/04/2016-15:54:17:503:						>> esAbrirSerial(COM2)
+19/04/2016-15:54:17:504:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:54:17:504:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:54:17:504:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:54:17:504:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:54:17:504:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:54:17:504:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:54:17:505:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:54:17:505:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-15:54:17:505:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:54:17:505:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:54:17:505:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-15:54:17:506:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:54:17:506:	-----------------------------------------------------
+
+19/04/2016-15:54:17:506:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:54:17:506:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-15:54:17:506:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-15:54:17:506:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-15:55:00:338:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-15:55:00:338:	-----------------------------------------------------
+
+19/04/2016-15:55:00:338:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:55:00:341:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-15:55:00:341:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-15:55:00:341:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:55:00:342:	-----------------------------------------------------
+
+19/04/2016-15:55:00:342:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:55:00:352:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:55:00:352:	-----------------------------------------------------
+
+19/04/2016-15:55:00:352:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:55:00:365:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:55:00:365:	-----------------------------------------------------
+
+19/04/2016-15:55:00:365:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:55:00:379:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-15:55:00:379:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-15:55:00:379:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-15:55:00:380:						Checksum (² == 178) - Quant (1)
+19/04/2016-15:55:00:380:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-15:55:00:380:						>> fnModoEscrita(COM2)
+19/04/2016-15:55:00:380:							G_iModoEscritaPorta = 2
+19/04/2016-15:55:00:380:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-15:55:00:380:						>> esAbrirSerial(COM2)
+19/04/2016-15:55:00:380:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:55:00:381:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:55:00:381:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:55:00:381:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:55:00:381:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:55:00:381:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:55:00:381:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:55:00:382:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-15:55:00:382:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-15:55:00:382:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-15:55:00:382:					>> fnStatusPortaSerial()
+19/04/2016-15:55:00:382:						Verificando status da porta COM2
+19/04/2016-15:55:00:382:						>> esAbrirSerial(COM2)
+19/04/2016-15:55:00:382:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:55:00:383:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:55:00:383:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:55:00:383:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:55:00:383:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:55:00:383:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:55:00:383:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:55:00:384:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-15:55:00:384:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:55:00:384:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:55:00:384:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-15:55:00:384:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:55:00:384:	-----------------------------------------------------
+
+19/04/2016-15:55:00:384:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:55:00:385:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-15:55:00:385:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-15:55:00:385:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-15:55:36:886:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-15:55:36:887:	-----------------------------------------------------
+
+19/04/2016-15:55:36:887:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:55:36:892:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-15:55:36:892:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-15:55:36:893:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:55:36:893:	-----------------------------------------------------
+
+19/04/2016-15:55:36:893:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:55:36:912:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:55:36:912:	-----------------------------------------------------
+
+19/04/2016-15:55:36:912:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:55:36:936:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:55:36:937:	-----------------------------------------------------
+
+19/04/2016-15:55:36:937:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:55:36:963:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-15:55:36:963:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-15:55:36:964:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-15:55:36:964:						Checksum (² == 178) - Quant (1)
+19/04/2016-15:55:36:964:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-15:55:36:965:						>> fnModoEscrita(COM2)
+19/04/2016-15:55:36:965:							G_iModoEscritaPorta = 2
+19/04/2016-15:55:36:966:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-15:55:36:966:						>> esAbrirSerial(COM2)
+19/04/2016-15:55:36:966:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:55:36:967:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:55:36:967:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:55:36:967:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:55:36:968:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:55:36:968:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:55:36:968:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:55:36:969:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-15:55:36:969:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-15:55:36:969:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-15:55:36:970:					>> fnStatusPortaSerial()
+19/04/2016-15:55:36:970:						Verificando status da porta COM2
+19/04/2016-15:55:36:970:						>> esAbrirSerial(COM2)
+19/04/2016-15:55:36:971:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-15:55:36:971:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-15:55:36:971:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-15:55:36:972:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-15:55:36:972:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-15:55:36:972:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-15:55:36:972:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-15:55:36:972:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-15:55:36:973:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:55:36:973:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-15:55:36:973:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-15:55:36:973:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-15:55:36:973:	-----------------------------------------------------
+
+19/04/2016-15:55:36:974:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-15:55:36:974:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-15:55:36:974:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-15:55:36:974:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-16:08:02:683:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-16:08:02:683:	-----------------------------------------------------
+
+19/04/2016-16:08:02:683:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:08:02:686:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-16:08:02:686:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-16:08:02:686:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:08:02:686:	-----------------------------------------------------
+
+19/04/2016-16:08:02:687:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:08:02:697:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:08:02:697:	-----------------------------------------------------
+
+19/04/2016-16:08:02:697:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:08:02:709:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:08:02:709:	-----------------------------------------------------
+
+19/04/2016-16:08:02:709:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:08:02:723:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-16:08:02:724:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-16:08:02:724:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-16:08:02:724:						Checksum (² == 178) - Quant (1)
+19/04/2016-16:08:02:724:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-16:08:02:724:						>> fnModoEscrita(COM2)
+19/04/2016-16:08:02:724:							G_iModoEscritaPorta = 2
+19/04/2016-16:08:02:724:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-16:08:02:725:						>> esAbrirSerial(COM2)
+19/04/2016-16:08:02:725:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:08:02:725:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:08:02:725:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:08:02:725:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:08:02:725:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:08:02:726:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:08:02:726:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:08:02:726:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-16:08:02:726:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-16:08:02:726:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-16:08:02:726:					>> fnStatusPortaSerial()
+19/04/2016-16:08:02:727:						Verificando status da porta COM2
+19/04/2016-16:08:02:727:						>> esAbrirSerial(COM2)
+19/04/2016-16:08:02:727:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:08:02:727:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:08:02:727:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:08:02:727:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:08:02:727:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:08:02:728:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:08:02:728:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:08:02:728:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-16:08:02:728:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:08:02:728:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:08:02:728:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-16:08:02:729:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:08:02:729:	-----------------------------------------------------
+
+19/04/2016-16:08:02:729:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:08:02:729:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-16:08:02:729:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-16:08:02:729:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-16:08:39:258:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-16:08:39:258:	-----------------------------------------------------
+
+19/04/2016-16:08:39:258:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:08:39:261:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-16:08:39:261:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-16:08:39:261:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:08:39:262:	-----------------------------------------------------
+
+19/04/2016-16:08:39:262:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:08:39:275:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:08:39:277:	-----------------------------------------------------
+
+19/04/2016-16:08:39:288:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:08:39:303:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:08:39:303:	-----------------------------------------------------
+
+19/04/2016-16:08:39:303:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:08:39:318:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-16:08:39:318:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-16:08:39:318:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-16:08:39:318:						Checksum (² == 178) - Quant (1)
+19/04/2016-16:08:39:318:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-16:08:39:318:						>> fnModoEscrita(COM2)
+19/04/2016-16:08:39:318:							G_iModoEscritaPorta = 2
+19/04/2016-16:08:39:319:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-16:08:39:319:						>> esAbrirSerial(COM2)
+19/04/2016-16:08:39:319:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:08:39:319:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:08:39:319:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:08:39:319:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:08:39:320:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:08:39:320:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:08:39:320:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:08:39:320:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-16:08:39:320:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-16:08:39:320:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-16:08:39:321:					>> fnStatusPortaSerial()
+19/04/2016-16:08:39:321:						Verificando status da porta COM2
+19/04/2016-16:08:39:321:						>> esAbrirSerial(COM2)
+19/04/2016-16:08:39:321:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:08:39:321:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:08:39:321:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:08:39:321:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:08:39:322:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:08:39:322:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:08:39:322:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:08:39:322:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-16:08:39:322:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:08:39:322:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:08:39:322:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-16:08:39:322:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:08:39:323:	-----------------------------------------------------
+
+19/04/2016-16:08:39:323:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:08:39:323:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-16:08:39:323:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-16:08:39:323:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-16:15:07:130:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-16:15:07:130:	-----------------------------------------------------
+
+19/04/2016-16:15:07:130:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:15:07:133:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-16:15:07:133:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-16:15:07:133:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:15:07:133:	-----------------------------------------------------
+
+19/04/2016-16:15:07:133:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:15:07:143:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:15:07:143:	-----------------------------------------------------
+
+19/04/2016-16:15:07:143:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:15:07:156:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:15:07:156:	-----------------------------------------------------
+
+19/04/2016-16:15:07:156:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:15:07:171:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-16:15:07:171:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-16:15:07:171:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-16:15:07:171:						Checksum (² == 178) - Quant (1)
+19/04/2016-16:15:07:171:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-16:15:07:172:						>> fnModoEscrita(COM2)
+19/04/2016-16:15:07:172:							G_iModoEscritaPorta = 2
+19/04/2016-16:15:07:172:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-16:15:07:172:						>> esAbrirSerial(COM2)
+19/04/2016-16:15:07:172:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:15:07:172:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:15:07:173:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:15:07:173:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:15:07:173:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:15:07:173:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:15:07:173:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:15:07:174:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-16:15:07:174:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-16:15:07:174:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-16:15:07:174:					>> fnStatusPortaSerial()
+19/04/2016-16:15:07:174:						Verificando status da porta COM2
+19/04/2016-16:15:07:175:						>> esAbrirSerial(COM2)
+19/04/2016-16:15:07:175:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:15:07:175:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:15:07:175:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:15:07:175:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:15:07:176:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:15:07:176:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:15:07:176:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:15:07:176:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-16:15:07:176:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:15:07:177:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:15:07:177:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-16:15:07:177:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:15:07:177:	-----------------------------------------------------
+
+19/04/2016-16:15:07:177:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:15:07:177:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-16:15:07:178:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-16:15:07:178:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-16:15:43:486:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-16:15:43:487:	-----------------------------------------------------
+
+19/04/2016-16:15:43:487:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:15:43:492:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-16:15:43:492:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-16:15:43:492:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:15:43:492:	-----------------------------------------------------
+
+19/04/2016-16:15:43:493:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:15:43:511:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:15:43:511:	-----------------------------------------------------
+
+19/04/2016-16:15:43:511:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:15:43:523:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:15:43:523:	-----------------------------------------------------
+
+19/04/2016-16:15:43:523:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:15:43:537:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-16:15:43:537:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-16:15:43:537:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-16:15:43:537:						Checksum (² == 178) - Quant (1)
+19/04/2016-16:15:43:538:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-16:15:43:538:						>> fnModoEscrita(COM2)
+19/04/2016-16:15:43:538:							G_iModoEscritaPorta = 2
+19/04/2016-16:15:43:538:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-16:15:43:538:						>> esAbrirSerial(COM2)
+19/04/2016-16:15:43:538:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:15:43:538:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:15:43:539:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:15:43:539:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:15:43:539:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:15:43:539:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:15:43:539:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:15:43:539:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-16:15:43:539:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-16:15:43:540:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-16:15:43:540:					>> fnStatusPortaSerial()
+19/04/2016-16:15:43:540:						Verificando status da porta COM2
+19/04/2016-16:15:43:540:						>> esAbrirSerial(COM2)
+19/04/2016-16:15:43:540:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:15:43:540:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:15:43:540:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:15:43:541:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:15:43:541:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:15:43:541:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:15:43:541:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:15:43:541:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-16:15:43:542:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:15:43:542:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:15:43:542:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-16:15:43:542:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:15:43:542:	-----------------------------------------------------
+
+19/04/2016-16:15:43:542:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:15:43:542:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-16:15:43:543:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-16:15:43:543:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-16:22:20:942:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-16:22:20:943:	-----------------------------------------------------
+
+19/04/2016-16:22:20:943:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:22:20:950:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-16:22:20:951:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-16:22:20:951:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:22:20:951:	-----------------------------------------------------
+
+19/04/2016-16:22:20:952:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:22:20:962:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:22:20:962:	-----------------------------------------------------
+
+19/04/2016-16:22:20:962:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:22:20:975:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:22:20:975:	-----------------------------------------------------
+
+19/04/2016-16:22:20:976:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:22:20:990:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-16:22:20:990:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-16:22:20:990:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-16:22:20:991:						Checksum (² == 178) - Quant (1)
+19/04/2016-16:22:20:991:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-16:22:20:991:						>> fnModoEscrita(COM2)
+19/04/2016-16:22:20:991:							G_iModoEscritaPorta = 2
+19/04/2016-16:22:20:991:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-16:22:20:992:						>> esAbrirSerial(COM2)
+19/04/2016-16:22:20:992:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:22:20:992:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:22:20:992:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:22:20:992:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:22:20:992:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:22:20:993:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:22:20:993:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:22:20:993:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-16:22:20:993:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-16:22:20:993:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-16:22:20:993:					>> fnStatusPortaSerial()
+19/04/2016-16:22:20:994:						Verificando status da porta COM2
+19/04/2016-16:22:20:994:						>> esAbrirSerial(COM2)
+19/04/2016-16:22:20:994:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:22:20:994:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:22:20:995:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:22:20:995:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:22:20:995:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:22:20:995:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:22:20:995:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:22:20:995:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-16:22:20:996:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:22:20:996:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:22:20:996:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-16:22:20:996:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:22:20:996:	-----------------------------------------------------
+
+19/04/2016-16:22:20:996:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:22:20:997:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-16:22:20:997:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-16:22:20:997:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-16:23:03:495:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-16:23:03:495:	-----------------------------------------------------
+
+19/04/2016-16:23:03:495:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:23:03:498:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-16:23:03:498:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-16:23:03:498:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:23:03:498:	-----------------------------------------------------
+
+19/04/2016-16:23:03:499:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:23:03:508:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:23:03:508:	-----------------------------------------------------
+
+19/04/2016-16:23:03:509:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:23:03:521:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:23:03:521:	-----------------------------------------------------
+
+19/04/2016-16:23:03:521:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:23:03:535:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-16:23:03:536:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-16:23:03:536:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-16:23:03:536:						Checksum (² == 178) - Quant (1)
+19/04/2016-16:23:03:536:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-16:23:03:536:						>> fnModoEscrita(COM2)
+19/04/2016-16:23:03:536:							G_iModoEscritaPorta = 2
+19/04/2016-16:23:03:537:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-16:23:03:537:						>> esAbrirSerial(COM2)
+19/04/2016-16:23:03:537:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:23:03:537:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:23:03:537:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:23:03:538:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:23:03:538:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:23:03:538:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:23:03:538:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:23:03:538:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-16:23:03:538:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-16:23:03:539:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-16:23:03:539:					>> fnStatusPortaSerial()
+19/04/2016-16:23:03:539:						Verificando status da porta COM2
+19/04/2016-16:23:03:539:						>> esAbrirSerial(COM2)
+19/04/2016-16:23:03:539:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:23:03:539:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:23:03:540:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:23:03:540:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:23:03:540:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:23:03:540:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:23:03:540:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:23:03:541:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-16:23:03:541:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:23:03:541:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:23:03:541:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-16:23:03:541:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:23:03:541:	-----------------------------------------------------
+
+19/04/2016-16:23:03:541:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:23:03:542:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-16:23:03:542:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-16:23:03:542:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-16:26:50:876:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-16:26:50:876:	-----------------------------------------------------
+
+19/04/2016-16:26:50:876:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:26:50:879:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-16:26:50:879:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-16:26:50:879:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:26:50:880:	-----------------------------------------------------
+
+19/04/2016-16:26:50:880:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:26:50:890:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:26:50:890:	-----------------------------------------------------
+
+19/04/2016-16:26:50:890:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:26:50:902:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:26:50:902:	-----------------------------------------------------
+
+19/04/2016-16:26:50:903:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:26:50:917:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-16:26:50:917:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-16:26:50:917:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-16:26:50:917:						Checksum (² == 178) - Quant (1)
+19/04/2016-16:26:50:917:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-16:26:50:918:						>> fnModoEscrita(COM2)
+19/04/2016-16:26:50:918:							G_iModoEscritaPorta = 2
+19/04/2016-16:26:50:918:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-16:26:50:918:						>> esAbrirSerial(COM2)
+19/04/2016-16:26:50:918:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:26:50:918:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:26:50:919:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:26:50:919:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:26:50:919:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:26:50:919:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:26:50:919:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:26:50:919:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-16:26:50:919:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-16:26:50:920:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-16:26:50:920:					>> fnStatusPortaSerial()
+19/04/2016-16:26:50:920:						Verificando status da porta COM2
+19/04/2016-16:26:50:920:						>> esAbrirSerial(COM2)
+19/04/2016-16:26:50:920:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:26:50:920:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:26:50:921:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:26:50:921:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:26:50:921:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:26:50:921:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:26:50:921:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:26:50:921:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-16:26:50:922:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:26:50:922:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:26:50:922:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-16:26:50:922:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:26:50:922:	-----------------------------------------------------
+
+19/04/2016-16:26:50:922:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:26:50:922:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-16:26:50:922:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-16:26:50:923:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-16:37:24:908:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-16:37:24:908:	-----------------------------------------------------
+
+19/04/2016-16:37:24:908:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:37:24:914:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-16:37:24:914:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-16:37:24:914:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:37:24:915:	-----------------------------------------------------
+
+19/04/2016-16:37:24:915:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:37:24:934:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:37:24:934:	-----------------------------------------------------
+
+19/04/2016-16:37:24:934:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:37:24:952:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:37:24:952:	-----------------------------------------------------
+
+19/04/2016-16:37:24:952:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:37:24:970:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-16:37:24:970:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-16:37:24:970:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-16:37:24:970:						Checksum (² == 178) - Quant (1)
+19/04/2016-16:37:24:971:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-16:37:24:971:						>> fnModoEscrita(COM2)
+19/04/2016-16:37:24:971:							G_iModoEscritaPorta = 2
+19/04/2016-16:37:24:971:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-16:37:24:972:						>> esAbrirSerial(COM2)
+19/04/2016-16:37:24:972:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:37:24:972:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:37:24:972:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:37:24:972:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:37:24:972:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:37:24:973:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:37:24:973:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:37:24:973:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-16:37:24:973:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-16:37:24:973:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-16:37:24:974:					>> fnStatusPortaSerial()
+19/04/2016-16:37:24:974:						Verificando status da porta COM2
+19/04/2016-16:37:24:974:						>> esAbrirSerial(COM2)
+19/04/2016-16:37:24:974:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:37:24:974:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:37:24:974:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:37:24:975:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:37:24:975:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:37:24:975:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:37:24:975:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:37:24:975:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-16:37:24:975:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:37:24:976:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:37:24:976:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-16:37:24:976:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:37:24:976:	-----------------------------------------------------
+
+19/04/2016-16:37:24:976:	>> fnXML_AlterarValor(START\LocalArquivos, c:\iqsistemas\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:37:24:976:		>> fnXML_START_PathLocalArquivos(c:\iqsistemas\)
+19/04/2016-16:37:24:977:			>> fnXML_START_PathPadrao(c:\iqsistemas\)
+19/04/2016-16:37:24:977:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-16:46:23:004:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-16:46:23:004:	-----------------------------------------------------
+
+19/04/2016-16:46:23:004:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:46:23:007:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-16:46:23:007:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-16:46:23:008:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:46:23:008:	-----------------------------------------------------
+
+19/04/2016-16:46:23:008:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:46:23:018:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:46:23:018:	-----------------------------------------------------
+
+19/04/2016-16:46:23:018:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:46:23:030:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:46:23:030:	-----------------------------------------------------
+
+19/04/2016-16:46:23:030:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:46:23:045:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-16:46:23:045:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-16:46:23:045:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-16:46:23:045:						Checksum (² == 178) - Quant (1)
+19/04/2016-16:46:23:045:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-16:46:23:046:						>> fnModoEscrita(COM2)
+19/04/2016-16:46:23:046:							G_iModoEscritaPorta = 2
+19/04/2016-16:46:23:046:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-16:46:23:046:						>> esAbrirSerial(COM2)
+19/04/2016-16:46:23:046:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:46:23:046:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:46:23:047:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:46:23:047:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:46:23:047:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:46:23:047:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:46:23:047:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:46:23:048:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-16:46:23:048:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-16:46:23:048:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-16:46:23:048:					>> fnStatusPortaSerial()
+19/04/2016-16:46:23:048:						Verificando status da porta COM2
+19/04/2016-16:46:23:048:						>> esAbrirSerial(COM2)
+19/04/2016-16:46:23:049:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:46:23:049:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:46:23:049:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:46:23:049:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:46:23:049:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:46:23:050:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:46:23:050:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:46:23:050:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-16:46:23:050:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:46:23:050:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:46:23:050:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-16:46:23:051:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:46:23:051:	-----------------------------------------------------
+
+19/04/2016-16:46:23:051:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:46:23:051:		>> fnXML_START_PathLocalArquivos(C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\)
+19/04/2016-16:46:23:051:			>> fnXML_START_PathPadrao(C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\)
+19/04/2016-16:46:23:051:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-16:58:49:004:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-16:58:49:004:	-----------------------------------------------------
+
+19/04/2016-16:58:49:004:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:58:49:007:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-16:58:49:008:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-16:58:49:008:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:58:49:008:	-----------------------------------------------------
+
+19/04/2016-16:58:49:008:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:58:49:018:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:58:49:018:	-----------------------------------------------------
+
+19/04/2016-16:58:49:018:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:58:49:031:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:58:49:031:	-----------------------------------------------------
+
+19/04/2016-16:58:49:031:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:58:49:045:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-16:58:49:045:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-16:58:49:045:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-16:58:49:045:						Checksum (² == 178) - Quant (1)
+19/04/2016-16:58:49:045:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-16:58:49:046:						>> fnModoEscrita(COM2)
+19/04/2016-16:58:49:046:							G_iModoEscritaPorta = 2
+19/04/2016-16:58:49:046:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-16:58:49:046:						>> esAbrirSerial(COM2)
+19/04/2016-16:58:49:046:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:58:49:046:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:58:49:046:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:58:49:047:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:58:49:047:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:58:49:047:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:58:49:047:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:58:49:047:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-16:58:49:047:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-16:58:49:047:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-16:58:49:048:					>> fnStatusPortaSerial()
+19/04/2016-16:58:49:048:						Verificando status da porta COM2
+19/04/2016-16:58:49:048:						>> esAbrirSerial(COM2)
+19/04/2016-16:58:49:048:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-16:58:49:048:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-16:58:49:048:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-16:58:49:049:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-16:58:49:049:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-16:58:49:049:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-16:58:49:049:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-16:58:49:049:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-16:58:49:049:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:58:49:050:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-16:58:49:050:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-16:58:49:050:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-16:58:49:050:	-----------------------------------------------------
+
+19/04/2016-16:58:49:050:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-16:58:49:050:		>> fnXML_START_PathLocalArquivos(C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\)
+19/04/2016-16:58:49:050:			>> fnXML_START_PathPadrao(C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\)
+19/04/2016-16:58:49:050:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-17:55:55:003:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-17:55:55:004:	-----------------------------------------------------
+
+19/04/2016-17:55:55:004:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-17:55:55:007:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-17:55:55:007:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-17:55:55:007:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-17:55:55:008:	-----------------------------------------------------
+
+19/04/2016-17:55:55:008:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-17:55:55:018:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-17:55:55:018:	-----------------------------------------------------
+
+19/04/2016-17:55:55:018:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-17:55:55:034:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-17:55:55:034:	-----------------------------------------------------
+
+19/04/2016-17:55:55:034:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-17:55:55:049:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-17:55:55:049:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-17:55:55:049:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-17:55:55:049:						Checksum (² == 178) - Quant (1)
+19/04/2016-17:55:55:049:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-17:55:55:050:						>> fnModoEscrita(COM2)
+19/04/2016-17:55:55:050:							G_iModoEscritaPorta = 2
+19/04/2016-17:55:55:050:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-17:55:55:050:						>> esAbrirSerial(COM2)
+19/04/2016-17:55:55:050:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-17:55:55:050:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-17:55:55:050:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-17:55:55:051:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-17:55:55:051:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-17:55:55:051:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-17:55:55:051:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-17:55:55:051:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-17:55:55:051:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-17:55:55:051:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-17:55:55:052:					>> fnStatusPortaSerial()
+19/04/2016-17:55:55:052:						Verificando status da porta COM2
+19/04/2016-17:55:55:052:						>> esAbrirSerial(COM2)
+19/04/2016-17:55:55:052:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-17:55:55:052:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-17:55:55:052:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-17:55:55:052:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-17:55:55:053:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-17:55:55:053:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-17:55:55:053:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-17:55:55:053:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-17:55:55:053:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-17:55:55:053:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-17:55:55:053:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-17:55:55:054:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-17:55:55:054:	-----------------------------------------------------
+
+19/04/2016-17:55:55:054:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-17:55:55:054:		>> fnXML_START_PathLocalArquivos(C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\)
+19/04/2016-17:55:55:054:			>> fnXML_START_PathPadrao(C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\)
+19/04/2016-17:55:55:054:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1
+19/04/2016-17:56:13:190:	<< eDefinirModoRegistro - RETORNO NUMERO: 1
+19/04/2016-17:56:13:190:	-----------------------------------------------------
+
+19/04/2016-17:56:13:190:	>> fnXML_AlterarValor(START\Produto, FISCAL, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-17:56:13:197:		>> fnXML_START_DefinirProduto(FISCAL)
+19/04/2016-17:56:13:197:		<< fnXML_START_DefinirProduto - RETORNO NUMERO: 1
+19/04/2016-17:56:13:197:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-17:56:13:198:	-----------------------------------------------------
+
+19/04/2016-17:56:13:198:	>> fnXML_AlterarValor(ECF\ControleAutomatico, 1, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-17:56:13:214:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-17:56:13:214:	-----------------------------------------------------
+
+19/04/2016-17:56:13:214:	>> fnXML_AlterarValor(ECF\PortaSerial, COM2, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-17:56:13:227:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-17:56:13:227:	-----------------------------------------------------
+
+19/04/2016-17:56:13:227:	>> fnXML_AlterarValor(ECF\Velocidade, 115200, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-17:56:13:241:		>> fnXML_ECF_Velocidade(115200)
+19/04/2016-17:56:13:241:			>> fnProgramarPortaSerial_ECF(115200, 0, 000)
+19/04/2016-17:56:13:242:				>> fnEnviarComando_ECF(CÕ80000, 8, 1)
+19/04/2016-17:56:13:242:						Checksum (² == 178) - Quant (1)
+19/04/2016-17:56:13:242:					>> hsEscreverBytes_ECF(CÕ80000², 9)
+19/04/2016-17:56:13:242:						>> fnModoEscrita(COM2)
+19/04/2016-17:56:13:242:							G_iModoEscritaPorta = 2
+19/04/2016-17:56:13:242:						<< fnModoEscrita - RETORNO NUMERO: 1
+19/04/2016-17:56:13:243:						>> esAbrirSerial(COM2)
+19/04/2016-17:56:13:243:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-17:56:13:243:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-17:56:13:243:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-17:56:13:243:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-17:56:13:243:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-17:56:13:243:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-17:56:13:244:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-17:56:13:244:					<< hsEscreverBytes_ECF - RETORNO NUMERO: 0
+19/04/2016-17:56:13:244:				<< fnEnviarComando_ECF - RETORNO NUMERO: 0
+19/04/2016-17:56:13:244:				>> fnVerificarPortaSerial_ECF()
+19/04/2016-17:56:13:244:					>> fnStatusPortaSerial()
+19/04/2016-17:56:13:244:						Verificando status da porta COM2
+19/04/2016-17:56:13:244:						>> esAbrirSerial(COM2)
+19/04/2016-17:56:13:245:							##CONFIGURANDO CONTROLE RTS/CTS - CONEXAO SERIAL
+19/04/2016-17:56:13:245:							>> fnTentarAbrirSerial(COM2)
+19/04/2016-17:56:13:245:								G_stPortaSerial - INVALID_HANDLE_VALUE
+19/04/2016-17:56:13:245:								Criou o handle - fnTentarAbrirSerial
+19/04/2016-17:56:13:245:								G_stPortaSerial - D_RET_ERRO_ABRIR_RS232
+19/04/2016-17:56:13:245:							<< fnTentarAbrirSerial - RETORNO NUMERO: -5
+19/04/2016-17:56:13:246:						<< esAbrirSerial - RETORNO NUMERO: -9
+19/04/2016-17:56:13:246:					<< fnStatusPortaSerial - RETORNO NUMERO: -9
+19/04/2016-17:56:13:246:				<< fnVerificarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-17:56:13:246:			<< fnProgramarPortaSerial_ECF - RETORNO NUMERO: 0
+19/04/2016-17:56:13:246:		<< fnXML_ECF_Velocidade - RETORNO NUMERO: 0
+19/04/2016-17:56:13:246:	<< fnXML_AlterarValor - RETORNO NUMERO: 1
+19/04/2016-17:56:13:246:	-----------------------------------------------------
+
+19/04/2016-17:56:13:246:	>> fnXML_AlterarValor(START\LocalArquivos, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\, C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\DarumaFrameWork.xml, 1)
+19/04/2016-17:56:13:247:		>> fnXML_START_PathLocalArquivos(C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\)
+19/04/2016-17:56:13:247:			>> fnXML_START_PathPadrao(C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\EspelhoECF\)
+19/04/2016-17:56:13:247:			<< fnXML_START_PathPadrao - RETORNO NUMERO: 1

@@ -1,0 +1,6 @@
+01|
+02|1|<prod><cProd>263</cProd><cEAN> </cEAN><xProd>MAÇANETA FREIO TODA ALUMINIO -VBRAKE-B(P90)</xProd><NCM>39231090</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>1.0000</qCom><vUnCom>4.47</vUnCom><vProd>4.47</vProd><cEANTrib> </cEANTrib><uTrib>UN</uTrib><qTrib>1.0000</qTrib><vUnTrib>4.47</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>4.47</vBC><pICMS>18.00</pICMS><vICMS>0.80</vICMS></ICMS00></ICMS></imposto>
+03|<total><ICMSTot><vBC>4.47</vBC><vICMS>0.80</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>4.47</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>4.47</vNF><vTotTrib>0.00</vTotTrib></ICMSTot></total>
+04|<transp><modFrete>9</modFrete></transp>
+05|000|<pag><tPag>01</tPag><vPag>4.47</vPag></pag>
+06|

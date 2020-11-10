@@ -1,0 +1,1531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2BF433BE-444F-4995-94CD-F040D0FAC895}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SICEpdv</RootNamespace>
+    <AssemblyName>SICEpdv</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ManifestCertificateThumbprint>FA2639F754E5F8D65AC79C36ADC29AE1321A7D5F</ManifestCertificateThumbprint>
+    <ManifestKeyFile>IQKiosk_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>Custom</TargetZone>
+    <ApplicationIcon>IconeSICEpdv.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>C:\instalação\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>pt-BR</TargetCulture>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>3.0.3.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ACBrFramework.Net">
+      <HintPath>..\ACBrFramework.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Db4objects.Db4o">
+      <HintPath>.\Db4objects.Db4o.dll</HintPath>
+    </Reference>
+    <Reference Include="Db4objects.Db4o.Linq">
+      <HintPath>.\Db4objects.Db4o.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WinForms\10.0.0.0__b03f5f7f11d50a3a\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=4.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="QRCoder, Version=1.3.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\QRCoder.1.3.5\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Entity.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="zxing, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>packages\ZXing.Net.0.16.2\lib\net40\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>packages\ZXing.Net.0.16.2\lib\net40\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdicionarIQCARDCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdicionarIQCARDCliente.Designer.cs">
+      <DependentUpon>AdicionarIQCARDCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArmazenamentoCloud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArmazenamentoCloud.Designer.cs">
+      <DependentUpon>ArmazenamentoCloud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AvisoVencimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvisoVencimento.Designer.cs">
+      <DependentUpon>AvisoVencimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bemafi32.cs" />
+    <Compile Include="Cedulas.cs" />
+    <Compile Include="Clientes.cs" />
+    <Compile Include="Conexao.cs" />
+    <Compile Include="Configuracoes.cs" />
+    <Compile Include="ConfiguracoesECF.cs" />
+    <Compile Include="dadosFiscaisEmpresa.cs" />
+    <Compile Include="DadosProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DadosProdutos.Designer.cs">
+      <DependentUpon>DadosProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Despesas.cs" />
+    <Compile Include="DivulgarPromocaoIQCARD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DivulgarPromocaoIQCARD.Designer.cs">
+      <DependentUpon>DivulgarPromocaoIQCARD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DriveCloud.cs" />
+    <Compile Include="Elgin32.cs" />
+    <Compile Include="Epson.cs" />
+    <Compile Include="FormAtualizacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAtualizacao.Designer.cs">
+      <DependentUpon>FormAtualizacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIQ.Designer.cs">
+      <DependentUpon>FormIQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlterarParcela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlterarParcela.Designer.cs">
+      <DependentUpon>FrmAlterarParcela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltQtdDAV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltQtdDAV.Designer.cs">
+      <DependentUpon>FrmAltQtdDAV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAnuncio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnuncio.designer.cs">
+      <DependentUpon>FrmAnuncio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBackup.Designer.cs">
+      <DependentUpon>FrmBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroIndiceTecProducao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroIndiceTecProducao.Designer.cs">
+      <DependentUpon>frmCadastroIndiceTecProducao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClasseVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClasseVenda.Designer.cs">
+      <DependentUpon>frmClasseVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCOF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCOF.Designer.cs">
+      <DependentUpon>FrmCOF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComplementoItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComplementoItem.Designer.cs">
+      <DependentUpon>frmComplementoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConferencia.Designer.cs">
+      <DependentUpon>frmConferencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarDAVPrevenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarDAVPrevenda.Designer.cs">
+      <DependentUpon>FrmConsultarDAVPrevenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarSangria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarSangria.Designer.cs">
+      <DependentUpon>FrmConsultarSangria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDadosOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDadosOS.Designer.cs">
+      <DependentUpon>FrmDadosOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDependente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDependente.Designer.cs">
+      <DependentUpon>frmDependente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDescEspecial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDescEspecial.Designer.cs">
+      <DependentUpon>FrmDescEspecial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDevolucao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDevolucao.Designer.cs">
+      <DependentUpon>FrmDevolucao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDocumentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDocumentos.designer.cs">
+      <DependentUpon>FrmDocumentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEnderecoEntrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEnderecoEntrega.Designer.cs">
+      <DependentUpon>FrmEnderecoEntrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEscolherGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEscolherGrade.Designer.cs">
+      <DependentUpon>FrmEscolherGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExtratoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExtratoCliente.Designer.cs">
+      <DependentUpon>FrmExtratoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFornecedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFornecedores.designer.cs">
+      <DependentUpon>FrmFornecedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFotoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFotoCliente.Designer.cs">
+      <DependentUpon>FrmFotoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInformacoesCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInformacoesCliente.Designer.cs">
+      <DependentUpon>FrmInformacoesCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLotes.Designer.cs">
+      <DependentUpon>frmLotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorioNFCe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorioNFCe.Designer.cs">
+      <DependentUpon>frmRelatorioNFCe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncoesBalanca.cs" />
+    <Compile Include="FuncoesImpressao.cs" />
+    <Compile Include="frmIndiceTecnicoProducao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIndiceTecnicoProducao.Designer.cs">
+      <DependentUpon>frmIndiceTecnicoProducao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmItensDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmItensDocumento.Designer.cs">
+      <DependentUpon>FrmItensDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKitVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKitVenda.Designer.cs">
+      <DependentUpon>FrmKitVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotaFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotaFiscal.designer.cs">
+      <DependentUpon>FrmNotaFiscal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmObs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmObs.Designer.cs">
+      <DependentUpon>FrmObs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPDV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPDV.Designer.cs">
+      <DependentUpon>FrmPDV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFinalizarPreVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFinalizarPreVenda.Designer.cs">
+      <DependentUpon>FrmFinalizarPreVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImpressaoTEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogon.Designer.cs">
+      <DependentUpon>FrmLogon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuFiscal.Designer.cs">
+      <DependentUpon>FrmMenuFiscal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperadorTEF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPED.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPED.Designer.cs">
+      <DependentUpon>frmPED.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPosicaoEstoqueFiliais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPosicaoEstoqueFiliais.Designer.cs">
+      <DependentUpon>FrmPosicaoEstoqueFiliais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProdutos.Designer.cs">
+      <DependentUpon>FrmProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResumoCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmResumoCaixa.Designer.cs">
+      <DependentUpon>FrmResumoCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTabelaJuros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabelaJuros.Designer.cs">
+      <DependentUpon>frmTabelaJuros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeclasAtalho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeclasAtalho.Designer.cs">
+      <DependentUpon>frmTeclasAtalho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTipoTerminal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTipoTerminal.Designer.cs">
+      <DependentUpon>FrmTipoTerminal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVendedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVendedores.Designer.cs">
+      <DependentUpon>FrmVendedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcoes.cs" />
+    <Compile Include="FuncoesECF.cs" />
+    <Compile Include="FuncoesFiscais.cs" />
+    <Compile Include="FuncoesNFC.cs" />
+    <Compile Include="FuncoesPAFECF.cs" />
+    <Compile Include="IcadastroProduto.cs" />
+    <Compile Include="ImportacaoNFe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportacaoNFe.Designer.cs">
+      <DependentUpon>ImportacaoNFe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImpressaoDAV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImpressaoDAV.Designer.cs">
+      <DependentUpon>ImpressaoDAV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DARUMAFW.cs" />
+    <Compile Include="IndexPedidoIQCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndexPedidoIQCard.Designer.cs">
+      <DependentUpon>IndexPedidoIQCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndexPontosAcumulados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndexPontosAcumulados.Designer.cs">
+      <DependentUpon>IndexPontosAcumulados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IqCard.cs" />
+    <Compile Include="IQCardComentarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IQCardComentarios.Designer.cs">
+      <DependentUpon>IQCardComentarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IQCardListaSeparacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IQCardListaSeparacao.Designer.cs">
+      <DependentUpon>IQCardListaSeparacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItensPedidoIQCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItensPedidoIQCard.Designer.cs">
+      <DependentUpon>ItensPedidoIQCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LancarPontosIQCARD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LancarPontosIQCARD.Designer.cs">
+      <DependentUpon>LancarPontosIQCARD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lerXML.cs" />
+    <Compile Include="LisgatemTributacao.cs" />
+    <Compile Include="ListaCompraIQCARD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaCompraIQCARD.Designer.cs">
+      <DependentUpon>ListaCompraIQCARD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaCompraItens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaCompraItens.Designer.cs">
+      <DependentUpon>ListaCompraItens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogSICEpdv.cs" />
+    <Compile Include="MesclarItens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MesclarItens.Designer.cs">
+      <DependentUpon>MesclarItens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelExtra.cs" />
+    <Compile Include="NFe.cs" />
+    <Compile Include="notificacoes.cs" />
+    <Compile Include="Operador.cs" />
+    <Compile Include="Paf.cs" />
+    <Compile Include="PAFArquivos.cs" />
+    <Compile Include="PagamentoOnLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagamentoOnLine.Designer.cs">
+      <DependentUpon>PagamentoOnLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PCPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PedidosIQCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PedidosIQCard.Designer.cs">
+      <DependentUpon>PedidosIQCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissoes.cs" />
+    <Compile Include="FrmPreVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreVenda.cs" />
+    <Compile Include="PreVenda.Designer.cs">
+      <DependentUpon>FrmPreVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produtos.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdicionarIQCARDCliente.resx">
+      <DependentUpon>AdicionarIQCARDCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArmazenamentoCloud.resx">
+      <DependentUpon>ArmazenamentoCloud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvisoVencimento.resx">
+      <DependentUpon>AvisoVencimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DadosProdutos.resx">
+      <DependentUpon>DadosProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DAV.rdlc" />
+    <EmbeddedResource Include="DivulgarPromocaoIQCARD.resx">
+      <DependentUpon>DivulgarPromocaoIQCARD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAtualizacao.resx">
+      <DependentUpon>FormAtualizacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIQ.resx">
+      <DependentUpon>FormIQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlterarParcela.resx">
+      <DependentUpon>FrmAlterarParcela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltQtdDAV.resx">
+      <DependentUpon>FrmAltQtdDAV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAnuncio.resx">
+      <DependentUpon>FrmAnuncio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBackup.resx">
+      <DependentUpon>FrmBackup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroIndiceTecProducao.resx">
+      <DependentUpon>frmCadastroIndiceTecProducao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClasseVenda.resx">
+      <DependentUpon>frmClasseVenda.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCOF.resx">
+      <DependentUpon>FrmCOF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComplementoItem.resx">
+      <DependentUpon>frmComplementoItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConferencia.resx">
+      <DependentUpon>frmConferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarDAVPrevenda.resx">
+      <DependentUpon>FrmConsultarDAVPrevenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarSangria.resx">
+      <DependentUpon>FrmConsultarSangria.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDadosOS.resx">
+      <DependentUpon>FrmDadosOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDependente.resx">
+      <DependentUpon>frmDependente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDescEspecial.resx">
+      <DependentUpon>FrmDescEspecial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDevolucao.resx">
+      <DependentUpon>FrmDevolucao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDocumentos.resx">
+      <DependentUpon>FrmDocumentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEnderecoEntrega.resx">
+      <DependentUpon>FrmEnderecoEntrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEscolherGrade.resx">
+      <DependentUpon>FrmEscolherGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExtratoCliente.resx">
+      <DependentUpon>FrmExtratoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFornecedores.resx">
+      <DependentUpon>FrmFornecedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFotoCliente.resx">
+      <DependentUpon>FrmFotoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInformacoesCliente.resx">
+      <DependentUpon>FrmInformacoesCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLotes.resx">
+      <DependentUpon>frmLotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorioNFCe.resx">
+      <DependentUpon>frmRelatorioNFCe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuncoesImpressao.resx">
+      <DependentUpon>FuncoesImpressao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIndiceTecnicoProducao.resx">
+      <DependentUpon>frmIndiceTecnicoProducao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmItensDocumento.resx">
+      <DependentUpon>FrmItensDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKitVenda.resx">
+      <DependentUpon>FrmKitVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotaFiscal.resx">
+      <DependentUpon>FrmNotaFiscal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmObs.resx">
+      <DependentUpon>FrmObs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPDV.resx">
+      <DependentUpon>FrmPDV.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFinalizarPreVenda.resx">
+      <DependentUpon>FrmFinalizarPreVenda.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImpressaoTEF.resx">
+      <DependentUpon>frmImpressaoTEF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogon.resx">
+      <DependentUpon>FrmLogon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuFiscal.resx">
+      <DependentUpon>FrmMenuFiscal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperadorTEF.resx">
+      <DependentUpon>frmOperadorTEF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPED.resx">
+      <DependentUpon>frmPED.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPosicaoEstoqueFiliais.resx">
+      <DependentUpon>FrmPosicaoEstoqueFiliais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPreVenda.resx">
+      <DependentUpon>FrmPreVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProdutos.resx">
+      <DependentUpon>FrmProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmResumoCaixa.resx">
+      <DependentUpon>FrmResumoCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTabelaJuros.resx">
+      <DependentUpon>frmTabelaJuros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeclasAtalho.resx">
+      <DependentUpon>frmTeclasAtalho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTipoTerminal.resx">
+      <DependentUpon>FrmTipoTerminal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVendedores.resx">
+      <DependentUpon>FrmVendedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportacaoNFe.resx">
+      <DependentUpon>ImportacaoNFe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImpressaoDAV.resx">
+      <DependentUpon>ImpressaoDAV.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndexPedidoIQCard.resx">
+      <DependentUpon>IndexPedidoIQCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndexPontosAcumulados.resx">
+      <DependentUpon>IndexPontosAcumulados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IQCardComentarios.resx">
+      <DependentUpon>IQCardComentarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IQCardListaSeparacao.resx">
+      <DependentUpon>IQCardListaSeparacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItensPedidoIQCard.resx">
+      <DependentUpon>ItensPedidoIQCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LancarPontosIQCARD.resx">
+      <DependentUpon>LancarPontosIQCARD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaCompraIQCARD.resx">
+      <DependentUpon>ListaCompraIQCARD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaCompraItens.resx">
+      <DependentUpon>ListaCompraItens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaImpressaoSeparacao.rdlc" />
+    <EmbeddedResource Include="MesclarItens.resx">
+      <DependentUpon>MesclarItens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagamentoOnLine.resx">
+      <DependentUpon>PagamentoOnLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PedidosIQCard.resx">
+      <DependentUpon>PedidosIQCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedeCartoes.resx">
+      <DependentUpon>RedeCartoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatorioNFCe - Copy.rdlc" />
+    <EmbeddedResource Include="RelatorioNFCe.rdlc" />
+    <EmbeddedResource Include="RptImpressao.rdlc" />
+    <EmbeddedResource Include="Sangria.resx">
+      <DependentUpon>Sangria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sincronizar.resx">
+      <DependentUpon>Sincronizar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suporte.resx">
+      <DependentUpon>Suporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suprimento.resx">
+      <DependentUpon>Suprimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeclaNumerico.resx">
+      <DependentUpon>TeclaNumerico.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TokenIQCARD.resx">
+      <DependentUpon>TokenIQCARD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcAdicionarItens.resx">
+      <DependentUpon>UcAdicionarItens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCartoes.resx">
+      <DependentUpon>UCCartoes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucClientePdv.resx">
+      <DependentUpon>ucClientePdv.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMsgOperador.resx">
+      <DependentUpon>FrmMsgOperador.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcKitVenda.resx">
+      <DependentUpon>UcKitVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCMoedas.resx">
+      <DependentUpon>UCMoedas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPagamentos.resx">
+      <DependentUpon>UCPagamentos.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCTroco.resx">
+      <DependentUpon>UCTroco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcVendedores.resx">
+      <DependentUpon>UcVendedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RedeCartoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedeCartoes.Designer.cs">
+      <DependentUpon>RedeCartoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sangria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sangria.Designer.cs">
+      <DependentUpon>Sangria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceProdutos\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SICEpdv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SICEpdv.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Sincronizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sincronizar.Designer.cs">
+      <DependentUpon>Sincronizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sintegra.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SPEDFiscal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StandAlone.cs" />
+    <Compile Include="Suporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suporte.Designer.cs">
+      <DependentUpon>Suporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suprimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suprimento.Designer.cs">
+      <DependentUpon>Suprimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sweda32.cs" />
+    <Compile Include="TeclaNumerico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TeclaNumerico.Designer.cs">
+      <DependentUpon>TeclaNumerico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TEF.cs" />
+    <Compile Include="TokenIQCARD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TokenIQCARD.Designer.cs">
+      <DependentUpon>TokenIQCARD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Toledo.cs" />
+    <Compile Include="UcAdicionarItens.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcAdicionarItens.Designer.cs">
+      <DependentUpon>UcAdicionarItens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCCartoes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCartoes.Designer.cs">
+      <DependentUpon>UCCartoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucClientePdv.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucClientePdv.Designer.cs">
+      <DependentUpon>ucClientePdv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcKitVenda.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcKitVenda.Designer.cs">
+      <DependentUpon>UcKitVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCMoedas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMoedas.Designer.cs">
+      <DependentUpon>UCMoedas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPagamentos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPagamentos.Designer.cs">
+      <DependentUpon>UCPagamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCTroco.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCTroco.Designer.cs">
+      <DependentUpon>UCTroco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcVendedores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcVendedores.Designer.cs">
+      <DependentUpon>UcVendedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UplodImagemProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UplodImagemProduto.Designer.cs">
+      <DependentUpon>UplodImagemProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Variaveis.cs" />
+    <Compile Include="Venda.cs" />
+    <Compile Include="FrmMsgOperador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMsgOperador.Designer.cs">
+      <DependentUpon>FrmMsgOperador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vendedor.cs" />
+    <EmbeddedResource Include="UplodImagemProduto.resx">
+      <DependentUpon>UplodImagemProduto.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\Microsoft.ReportViewer.Common.fakes" />
+    <None Include="imagens\abaixo.jpg" />
+    <EntityDeploy Include="SICEpdv.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SICEpdv.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\dadosNFCe.datasource" />
+    <None Include="Service References\ServiceProdutos\SICEpdv.ServiceProdutos.Faturamento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceProdutos\SICEpdv.ServiceProdutos.PosicaoFiliais.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceProdutos\SICEpdv.ServiceProdutos.Produtos.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceProdutos\SICEpdv.ServiceProdutos.ProdutosContador.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceProdutos\WSProdutos.wsdl" />
+    <None Include="Service References\ServiceProdutos\WSProdutos.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceProdutos\WSProdutos1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceProdutos\WSProdutos2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.AgrupamentoArtigosUsuarios.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.AgrupamentoChatMensages.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.AgrupamentoPadrao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.AgrupamentoPontos.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.AgrupamentoUsuariosIdadeGenero.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.AlbumEmpresa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ArtigosUsuario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Avaliacao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.BitCoin.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Brindes.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.CardMembros.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.CartaoPresente1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Categoria1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ChamadaMobile.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Chat.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ChatContatoInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ChatContatos1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ChatDic1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ClienteCartao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.CodigoPromocao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Colaboradores.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Combustiveis.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Comentarios.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ComprasIndividual.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ConfiguracoesAPPStoreEmpresa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ContatoSuporte.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.CredStore.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.CredStoreEmpresa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.CuponsFiscais.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Curriculum.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.DepositoBancario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Empresa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.EmpresaApresentacao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Eticket.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.EticketTemporario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.EticketTemporarioPontosExtra.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Eventos.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.EventosUsuarios.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ExtratoCarne.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.GaleriaMidia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Imagens.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Indicacao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Interacoes.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ItensCupomFiscal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ItensDelivery.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ItensOrcamento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ItensPedido.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ListaCompraCompartilhamento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.LoteBitCoin.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.MarcadorMapa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.MembrosCampanhaCupomFiscal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Mensagem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Mobile.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.MovIndicacao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Orcamento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.PagamentoEmpresa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Parametros.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Pedido.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.PedidoEntrega.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.PesquisaPrecoCupons.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.PontosAcumulados.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.PontosExtra.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Premios.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Promocao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.RecargaPontos.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Resgate.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.Social.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.ValoresRecarga.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SICEpdv.ServiceReference1.VendaPadraoBitCoin1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\WSIQPass.wsdl" />
+    <None Include="Service References\ServiceReference1\WSIQPass.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\WSIQPass1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\WSIQPass2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\WSIQPass3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference2\SICEpdv.ServiceReference2.BoletoBancario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference2\SICEpdv.ServiceReference2.Clientes.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference2\SICEpdv.ServiceReference2.ClientesInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference2\SICEpdv.ServiceReference2.DadosInadimplencia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference2\SICEpdv.ServiceReference2.Extrato.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference2\SICEpdv.ServiceReference2.ResumoCrediario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference2\WSClientes.wsdl" />
+    <None Include="Service References\ServiceReference2\WSClientes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference2\WSClientes1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference2\WSClientes2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SICEpdv.edmx.diagram">
+      <DependentUpon>SICEpdv.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\acima.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BemaFI32.lib" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="imagens\menos.jpg" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\DataSources\caixadav.datasource" />
+    <None Include="Properties\DataSources\contasbanco.datasource" />
+    <None Include="Properties\DataSources\despesas.datasource" />
+    <None Include="Properties\DataSources\siceEntities2.datasource" />
+    <None Include="Properties\DataSources\vendadav.datasource" />
+    <None Include="Properties\DataSources\vendas.datasource">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.ReportViewer.11.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Report Viewer 2012 Runtime</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="MySql.Data.Entity">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceProdutos\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceProdutos\configuration.svcinfo" />
+    <None Include="Service References\ServiceProdutos\configuration91.svcinfo" />
+    <None Include="Service References\ServiceProdutos\WSProdutos.disco" />
+    <None Include="Resources\rating_gray.png" />
+    <None Include="Resources\btn-cast.png" />
+    <None Include="Resources\qrcodefidelidade2.png" />
+    <None Include="Resources\qrcodefidelidade1.png" />
+    <None Include="Resources\qrcodefidelidade.png" />
+    <None Include="Resources\alerta.png" />
+    <None Include="Resources\pdv_disable1.png" />
+    <None Include="Resources\promocoes_enable1.png" />
+    <None Include="Resources\promocoes_disable1.png" />
+    <None Include="Resources\suporte_enable1.png" />
+    <None Include="Resources\suporte_disable1.png" />
+    <None Include="Resources\upload.png" />
+    <None Include="Resources\suporte_enable.png" />
+    <None Include="Resources\suporte_disable.png" />
+    <None Include="Resources\promocoes_enable.png" />
+    <None Include="Resources\promocoes_disable.png" />
+    <None Include="Resources\pdv_enable.png" />
+    <None Include="Resources\pdv_disable.png" />
+    <None Include="Resources\camera.png" />
+    <None Include="Resources\whatsapp.png" />
+    <None Include="Resources\suporte.png" />
+    <None Include="Resources\backgroundpadrao.jpg" />
+    <None Include="Resources\circuloAzul.png" />
+    <None Include="Resources\anuncioPDV.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\azurecloud.png" />
+    <None Include="Resources\backgroundapp.png" />
+    <None Include="Resources\Ebene 1.png" />
+    <None Include="Service References\ServiceReference2\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceReference2\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference2\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReference2\WSClientes.disco" />
+    <None Include="Resources\googleplay.png" />
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReference1\WSIQPass.disco" />
+    <None Include="bin\Release\imagens\backgroundx.jpg" />
+    <None Include="bin\Release\imagensMetro\btnAbrirGaveta.jpg" />
+    <None Include="bin\Release\imagensMetro\valorAbertura.jpg" />
+    <None Include="bin\Release\imagensMetro\menu-top-iqcard - logo.png" />
+    <None Include="bin\Release\imagensMetro\soma-campo.png" />
+    <None Include="bin\Release\imagensMetro\abaixo.png" />
+    <None Include="bin\Release\imagensMetro\acima.png" />
+    <None Include="bin\Release\imagensMetro\menos.png" />
+    <None Include="bin\Release\imagensMetro\menu-top-user.png" />
+    <None Include="bin\Release\imagensMetro\menu-top-pdv.png" />
+    <None Include="bin\Release\imagensMetro\menu-top-marketing-digital.png" />
+    <None Include="bin\Release\imagensMetro\digitacao.jpg" />
+    <None Include="bin\Release\imagensMetro\btn-search.png" />
+    <None Include="bin\Release\imagensMetro\input-search-products.png" />
+    <None Include="bin\Release\imagensMetro\02-qrcode.png" />
+    <None Include="bin\Release\imagensMetro\03-checked.png" />
+    <None Include="bin\Release\imagensMetro\01-iqcard.png" />
+    <None Include="bin\Release\imagensMetro\menu-fidelize.png" />
+    <None Include="bin\Release\imagensMetro\menu-publicacao.png" />
+    <None Include="bin\Release\imagensMetro\menu-sorteio.png" />
+    <None Include="bin\Release\imagensMetro\menu-pedido.png" />
+    <None Include="bin\Release\imagensMetro\cloud_file.png" />
+    <None Include="bin\Release\imagensMetro\cloud_upload.png" />
+    <None Include="bin\Release\imagensMetro\cloud_icon_white.png" />
+    <None Include="bin\Release\imagensMetro\sacola2.png" />
+    <Content Include="documentacao\doc.htm" />
+    <None Include="imagens\mais.jpg" />
+    <None Include="imagens\adicionar.jpg" />
+    <SplashScreen Include="imagens\logo.jpg" />
+    <None Include="imagens\troco.png" />
+    <None Include="imagens\aguarde.png" />
+    <None Include="imagens\ocultar.png" />
+    <None Include="imagens\cloud.png" />
+    <None Include="imagens\digitacao.jpg" />
+    <Content Include="IconeSICEpdv.ico" />
+    <None Include="imagens\background_login.jpg" />
+    <None Include="imagens\btnAbrirGaveta.jpg" />
+    <None Include="imagens\boleto.png" />
+    <None Include="imagens\btn-times.png" />
+    <Content Include="imagens\checkout.png" />
+    <None Include="imagens\comentPreenchido.png" />
+    <None Include="imagens\iqcard.png" />
+    <None Include="imagens\circuloPreenchidoBranco.png" />
+    <None Include="imagens\logo-iq.jpg" />
+    <None Include="imagens\logo-pdv.jpg" />
+    <None Include="imagens\favorito.png" />
+    <None Include="imagens\compartilharCinza.png" />
+    <None Include="imagens\compartilharAzul.png" />
+    <Content Include="imagens\mascote.png" />
+    <Content Include="imagens\mostrar.png" />
+    <None Include="imagens\social.png" />
+    <None Include="imagens\smartphone.png" />
+    <None Include="imagens\pagseg.png" />
+    <None Include="imagens\paypal.png" />
+    <None Include="imagens\splashIQCard.jpg" />
+    <None Include="imagens\presente25.png" />
+    <None Include="imagens\presente50.png" />
+    <None Include="imagens\presente100.png" />
+    <None Include="imagens\rating_gold.png" />
+    <None Include="imagens\playstore.png" />
+    <Content Include="Leiame.htm" />
+    <None Include="Properties\DataSources\clientes.datasource" />
+    <None Include="Properties\DataSources\crmovclientes.datasource" />
+    <None Include="Properties\DataSources\devolucao.datasource" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Properties\DataSources\movdespesas.datasource" />
+    <None Include="Resources\logoIQEntrada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArquivosPAF\" />
+    <Folder Include="Auxiliar\" />
+    <Folder Include="EcfMovimentoDiario\" />
+    <Folder Include="EspelhoECF\" />
+    <Folder Include="ReducaoZEnvio\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceProdutos\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

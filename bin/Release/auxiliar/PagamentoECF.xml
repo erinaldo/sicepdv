@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pagamentos>
+  <Forma>
+    <DH>Dinheiro</DH>
+    <CH>Cheque</CH>
+    <CA>Cartão</CA>
+    <CR>Crediário</CR>
+    <TI>Ticket</TI>
+    <DV>Devolução</DV>
+  </Forma>
+</Pagamentos>

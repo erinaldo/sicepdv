@@ -1,0 +1,441 @@
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\SICEpdv.exe.config
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.exe
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.pdb
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.csprojResolveAssemblyReference.cache
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmAlterarParcela.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmBackup.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmCadastroIndiceTecProducao.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmClasseVenda.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmClientes.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmCOF.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmComplementoItem.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmConsultarDAVPrevenda.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmConsultarSangria.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmDadosOS.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmDependente.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmDescEspecial.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmDevolucao.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmDocumentos.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmEnderecoEntrega.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmEscolherGrade.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmExtratoCliente.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmFornecedores.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmFotoCliente.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmIndiceTecnicoProducao.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmItensDocumento.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmKitVenda.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmNotaFiscal.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmObs.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv._pdv.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmFinalizarPreVenda.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmImpressaoTEF.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmLogon.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmMenuFiscal.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmOperadorTEF.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmPED.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmPosicaoEstoqueFiliais.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmPreVenda.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmProdutos.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmResumoCaixa.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmTabelaJuros.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.frmTeclasAtalho.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmTipoTerminal.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmVendedores.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.ImportacaoNFe.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.ImpressaoDAV.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.MesclarItens.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.Properties.Resources.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.RedeCartoes.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.Sangria.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.Sincronizar.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.Suprimento.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.TeclaNumerico.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.UcAdicionarItens.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.UCCartoes.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.ucClientePdv.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.FrmMsgOperador.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.UcKitVenda.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.UCMoedas.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.UCPagamentos.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.UCTroco.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.UcVendedores.resources
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.csproj.GenerateResource.Cache
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\RdlCompile.cache
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\RdlCompile.compiled
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\SICEpdv.exe.manifest
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\SICEpdv.application
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\SICEpdv.exe
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\SICEpdv.pdb
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\ACBrFramework.Net.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\Ionic.Zip.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Configuration.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Data.DataSetExtensions.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Data.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Data.Entity.Design.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Data.Entity.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Data.Linq.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Deployment.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.DirectoryServices.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Drawing.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Runtime.Serialization.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Security.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Web.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Web.Extensions.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Web.Services.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Windows.Forms.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Xml.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\bin\Release\System.Xml.Linq.dll
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.TrustInfo.xml
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.exe.manifest
+C:\iqsistemas\SICEpdvNFCe\IQKiosk\obj\Release\SICEpdv.application
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\SICEpdv.exe.config
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.exe
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.pdb
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\SICEpdv.exe.manifest
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\SICEpdv.application
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\SICEpdv.exe
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\SICEpdv.pdb
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\ACBrFramework.Net.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\Ionic.Zip.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Configuration.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Data.DataSetExtensions.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Data.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Data.Entity.Design.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Data.Entity.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Data.Linq.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Deployment.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.DirectoryServices.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Drawing.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Runtime.Serialization.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Security.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Web.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Web.Extensions.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Web.Services.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Windows.Forms.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Xml.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\bin\Release\System.Xml.Linq.dll
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmAlterarParcela.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmBackup.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmCadastroIndiceTecProducao.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmClasseVenda.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmClientes.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmCOF.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmComplementoItem.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmConsultarDAVPrevenda.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmConsultarSangria.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmDadosOS.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmDependente.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmDescEspecial.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmDevolucao.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmDocumentos.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmEnderecoEntrega.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmEscolherGrade.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmExtratoCliente.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmFornecedores.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmFotoCliente.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmIndiceTecnicoProducao.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmItensDocumento.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmKitVenda.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmNotaFiscal.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmObs.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv._pdv.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmFinalizarPreVenda.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmImpressaoTEF.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmLogon.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmMenuFiscal.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmOperadorTEF.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmPED.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmPosicaoEstoqueFiliais.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmPreVenda.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmProdutos.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmResumoCaixa.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmTabelaJuros.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.frmTeclasAtalho.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmTipoTerminal.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmVendedores.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.ImportacaoNFe.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.ImpressaoDAV.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.MesclarItens.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.Properties.Resources.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.RedeCartoes.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.Sangria.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.Sincronizar.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.Suprimento.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.TeclaNumerico.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.UcAdicionarItens.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.UCCartoes.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.ucClientePdv.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmMsgOperador.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.UcKitVenda.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.UCMoedas.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.UCPagamentos.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.UCTroco.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.UcVendedores.resources
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.csproj.GenerateResource.Cache
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\RdlCompile.cache
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\RdlCompile.compiled
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.TrustInfo.xml
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.exe.manifest
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.application
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FuncoesImpressao.resources
+C:\iqsistemas\SICEpdv\SICEpdv.exe.config
+C:\iqsistemas\SICEpdv\SICEpdv.exe.manifest
+C:\iqsistemas\SICEpdv\SICEpdv.application
+C:\iqsistemas\SICEpdv\SICEpdv.exe
+C:\iqsistemas\SICEpdv\SICEpdv.pdb
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.csprojResolveAssemblyReference.cache
+C:\iqsistemas\SICEpdvNFCeIVam\IQKiosk\obj\Release\SICEpdv.FrmAltQtdDAV.resources
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\SICEpdv.exe.config
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.exe
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.pdb
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmAlterarParcela.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmAltQtdDAV.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmBackup.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmCadastroIndiceTecProducao.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmClasseVenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmClientes.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmCOF.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmComplementoItem.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmConsultarDAVPrevenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmConsultarSangria.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmDadosOS.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmDependente.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmDescEspecial.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmDevolucao.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmDocumentos.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmEnderecoEntrega.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmEscolherGrade.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmExtratoCliente.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmFornecedores.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmFotoCliente.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FuncoesImpressao.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmIndiceTecnicoProducao.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmItensDocumento.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmKitVenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmNotaFiscal.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmObs.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv._pdv.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmFinalizarPreVenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmImpressaoTEF.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmLogon.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmMenuFiscal.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmOperadorTEF.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmPED.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmPosicaoEstoqueFiliais.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmPreVenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmProdutos.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmResumoCaixa.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmTabelaJuros.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmTeclasAtalho.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmTipoTerminal.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmVendedores.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.ImportacaoNFe.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.ImpressaoDAV.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.MesclarItens.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.Properties.Resources.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.RedeCartoes.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.Sangria.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.Sincronizar.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.Suprimento.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.TeclaNumerico.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.UcAdicionarItens.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.UCCartoes.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.ucClientePdv.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.FrmMsgOperador.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.UcKitVenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.UCMoedas.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.UCPagamentos.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.UCTroco.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.UcVendedores.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.csproj.GenerateResource.Cache
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\RdlCompile.cache
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\RdlCompile.compiled
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\SICEpdv.exe.manifest
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\SICEpdv.application
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\SICEpdv.exe
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\SICEpdv.pdb
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Configuration.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Data.DataSetExtensions.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Data.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Data.Entity.Design.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Data.Entity.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Data.Linq.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Deployment.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.DirectoryServices.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Drawing.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Runtime.Serialization.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Security.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Web.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Web.Extensions.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Web.Services.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Windows.Forms.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Xml.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Xml.Linq.dll
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.TrustInfo.xml
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.exe.manifest
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.application
+C:\iqsistemas\SICEpdv\IQKiosk\SICEpdv.exe.config
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmConferencia.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\SICEpdv.exe.config
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.exe
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.pdb
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\SICEpdv.exe.manifest
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\SICEpdv.application
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\SICEpdv.exe
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\SICEpdv.pdb
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\Microsoft.ReportViewer.Common.10.0.0.0.Fakes.fakesconfig
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\DANFE.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\Ionic.Zip.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\Microsoft.QualityTools.Testing.Fakes.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Configuration.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Data.DataSetExtensions.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Data.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Data.Entity.Design.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Data.Entity.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Data.Linq.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Deployment.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.DirectoryServices.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Drawing.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Runtime.Serialization.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Security.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Web.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Web.Extensions.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Web.Services.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Windows.Forms.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Xml.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\System.Xml.Linq.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\MessagingToolkit.QRCode.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\bin\Release\DANFE.pdb
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.csprojFakesResolveAssemblyReference.cache
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\fakes.args
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\b\Microsoft.ReportViewer.Common.10.0.0.0.Fakes.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\b\Microsoft.ReportViewer.Common.10.0.0.0.Fakes.pdb
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\b\Microsoft.ReportViewer.Common.10.0.0.0.Fakes.xml
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\f.ah
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\f.ch
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\f.cs
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\f.csproj
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\f.fakes
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\f.fakesconfig
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\f.snk
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\o\f.csproj.FileListAbsolute.txt
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\o\f.csprojResolveAssemblyReference.cache
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\o\Microsoft.ReportViewer.Common.10.0.0.0.Fakes.dll
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\Fakes\mrvc\o\Microsoft.ReportViewer.Common.10.0.0.0.Fakes.pdb
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.csprojResolveAssemblyReference.cache
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmAlterarParcela.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmAltQtdDAV.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmBackup.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmCadastroIndiceTecProducao.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmClasseVenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmClientes.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmCOF.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmComplementoItem.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmConferencia.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmConsultarDAVPrevenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmConsultarSangria.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmDadosOS.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmDependente.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmDescEspecial.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmDevolucao.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmDocumentos.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmEnderecoEntrega.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmEscolherGrade.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmExtratoCliente.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmFornecedores.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmFotoCliente.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FuncoesImpressao.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmIndiceTecnicoProducao.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmItensDocumento.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmKitVenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmNotaFiscal.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmObs.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv._pdv.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmFinalizarPreVenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmImpressaoTEF.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmLogon.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmMenuFiscal.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmOperadorTEF.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmPED.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmPosicaoEstoqueFiliais.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmPreVenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmProdutos.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmResumoCaixa.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmTabelaJuros.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.frmTeclasAtalho.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmTipoTerminal.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmVendedores.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.ImportacaoNFe.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.ImpressaoDAV.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.MesclarItens.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.Properties.Resources.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.RedeCartoes.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.Sangria.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.Sincronizar.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.Suprimento.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.TeclaNumerico.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.UcAdicionarItens.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.UCCartoes.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.ucClientePdv.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.FrmMsgOperador.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.UcKitVenda.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.UCMoedas.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.UCPagamentos.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.UCTroco.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.UcVendedores.resources
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.csproj.GenerateResource.Cache
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\RdlCompile.cache
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\RdlCompile.compiled
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.TrustInfo.xml
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.exe.manifest
+C:\iqsistemas\SICEpdv\IQKiosk - Copia\obj\Release\SICEpdv.application
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\ACBrFramework.Net.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\Microsoft.SqlServer.Types.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\de\Microsoft.SqlServer.Types.resources.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\es\Microsoft.SqlServer.Types.resources.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\fr\Microsoft.SqlServer.Types.resources.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\it\Microsoft.SqlServer.Types.resources.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\ja\Microsoft.SqlServer.Types.resources.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\ko\Microsoft.SqlServer.Types.resources.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\pt\Microsoft.SqlServer.Types.resources.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.DivulgarPromocaoIQCARD.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.IndexPedidoIQCard.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.ItensPedidoIQCard.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.PedidosIQCard.resources
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\Microsoft.WindowsAzure.Storage.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\Microsoft.Data.Edm.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\Microsoft.Data.OData.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\System.Spatial.dll
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.ArmazenamentoCloud.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.PainelIQCARD.resources
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\zxing.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\zxing.presentation.dll
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\zxing.pdb
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\zxing.xml
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\zxing.presentation.pdb
+C:\iqsistemas\SICEpdv\IQKiosk\bin\Release\zxing.presentation.xml
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.DadosProdutos.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmLotes.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.frmRelatorioNFCe.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.IndexPontosAcumulados.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.IQCardComentarios.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.Suporte.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.AvisoVencimento.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.ListaCompraIQCARD.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.ListaCompraItens.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.TokenIQCARD.resources
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.csprojResolveAssemblyReference.cache
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\Interop.ShockwaveFlashObjects.dll
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\AxInterop.ShockwaveFlashObjects.dll
+C:\iqsistemas\SICEpdv\IQKiosk\obj\Release\SICEpdv.csproj.ResolveComReference.cache

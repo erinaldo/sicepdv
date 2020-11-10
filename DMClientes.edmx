@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DMClientes.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+        <EntityContainer Name="DMClientesStoreContainer">
+          <EntitySet Name="clientes" EntityType="DMClientes.Store.clientes" store:Type="Tables" Schema="sice" />
+        </EntityContainer>
+        <EntityType Name="clientes">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="apelido" Type="varchar" MaxLength="30" />
+          <Property Name="area" Type="varchar" MaxLength="20" />
+          <Property Name="ativo" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="atualizarpelosalario" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="avalista" Type="varchar" MaxLength="40" />
+          <Property Name="bairro" Type="varchar" MaxLength="20" />
+          <Property Name="bairro2" Type="varchar" MaxLength="20" />
+          <Property Name="bairroaval" Type="varchar" MaxLength="20" />
+          <Property Name="bairroconj" Type="varchar" MaxLength="25" />
+          <Property Name="bairrotrab" Type="varchar" MaxLength="20" />
+          <Property Name="cartaofidelidade" Type="varchar" MaxLength="20" />
+          <Property Name="celular" Type="varchar" MaxLength="16" />
+          <Property Name="cep" Type="varchar" MaxLength="10" />
+          <Property Name="cep2" Type="varchar" MaxLength="10" />
+          <Property Name="cepaval" Type="varchar" MaxLength="10" />
+          <Property Name="cepConj" Type="varchar" MaxLength="10" />
+          <Property Name="ceptrab" Type="varchar" MaxLength="10" />
+          <Property Name="chequedevolvido" Type="char" MaxLength="1" />
+          <Property Name="cidade" Type="varchar" MaxLength="30" />
+          <Property Name="cidade2" Type="varchar" MaxLength="30" />
+          <Property Name="cidadeaval" Type="varchar" MaxLength="20" />
+          <Property Name="cidadeconj" Type="varchar" MaxLength="20" />
+          <Property Name="cidadetrab" Type="varchar" MaxLength="20" />
+          <Property Name="cnpj" Type="varchar" MaxLength="18" />
+          <Property Name="cnpjtrab" Type="varchar" MaxLength="18" />
+          <Property Name="cobranca" Type="char" MaxLength="1" />
+          <Property Name="cobrarnodia" Type="int" Nullable="false" />
+          <Property Name="cobrarnovencimento" Type="char" MaxLength="1" />
+          <Property Name="codarea" Type="varchar" MaxLength="4" />
+          <Property Name="Codigo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CodigoFilial" Type="varchar" MaxLength="5" />
+          <Property Name="codigoserv" Type="uint" Nullable="false" />
+          <Property Name="codigosice" Type="bigint" />
+          <Property Name="complementoEnd" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="conjuge" Type="varchar" MaxLength="40" />
+          <Property Name="contabil" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="cpf" Type="varchar" MaxLength="14" />
+          <Property Name="cpfavalista" Type="varchar" MaxLength="14" />
+          <Property Name="cpfconj" Type="varchar" MaxLength="14" />
+          <Property Name="credito" Type="decimal" Scale="2" />
+          <Property Name="creditoprovisorio" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="data" Type="date" />
+          <Property Name="dataalteracaosenha" Type="datetime" />
+          <Property Name="databoleto" Type="date" Nullable="false" />
+          <Property Name="datacadastro" Type="date" />
+          <Property Name="datacobranca" Type="date" />
+          <Property Name="datacontrato" Type="date" Nullable="false" />
+          <Property Name="datadesativo" Type="date" />
+          <Property Name="datalimitedesconto" Type="date" />
+          <Property Name="dataultcarta" Type="date" />
+          <Property Name="debito" Type="decimal" Scale="2" />
+          <Property Name="debitoch" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="desconto" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="diasprimeirovencimento" Type="int" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="45" />
+          <Property Name="endereco" Type="varchar" MaxLength="50" />
+          <Property Name="endereco2" Type="varchar" MaxLength="50" />
+          <Property Name="enderecoaval" Type="varchar" MaxLength="40" />
+          <Property Name="enderecoconj" Type="varchar" MaxLength="40" />
+          <Property Name="enderecotrab" Type="varchar" MaxLength="40" />
+          <Property Name="estado" Type="char" MaxLength="2" />
+          <Property Name="estado2" Type="char" MaxLength="2" />
+          <Property Name="estadoaval" Type="char" MaxLength="2" />
+          <Property Name="estadocivil" Type="varchar" Nullable="false" MaxLength="11" />
+          <Property Name="estadoconj" Type="char" MaxLength="2" />
+          <Property Name="estadotrab" Type="char" MaxLength="2" />
+          <Property Name="fabricacao" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="fax" Type="varchar" MaxLength="16" />
+          <Property Name="fidelizacao" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="identidade" Type="varchar" MaxLength="15" />
+          <Property Name="identidadeaval" Type="varchar" MaxLength="15" />
+          <Property Name="identidadeconj" Type="varchar" MaxLength="15" />
+          <Property Name="inscricao" Type="varchar" MaxLength="20" />
+          <Property Name="localtrabalho" Type="varchar" MaxLength="30" />
+          <Property Name="LocalTrabAval" Type="varchar" MaxLength="25" />
+          <Property Name="localtrabconj" Type="varchar" MaxLength="25" />
+          <Property Name="mae" Type="varchar" MaxLength="40" />
+          <Property Name="mapa" Type="text" />
+          <Property Name="marcado" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="nascimento" Type="date" />
+          <Property Name="nascimentoaval" Type="date" />
+          <Property Name="nascimentoconj" Type="date" />
+          <Property Name="ncartas" Type="int" Nullable="false" />
+          <Property Name="ndiascobranca" Type="int" />
+          <Property Name="newsletter" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="Nome" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="numero" Type="varchar" Nullable="false" MaxLength="8" />
+          <Property Name="numerofiliais" Type="int" Nullable="false" />
+          <Property Name="observacao" Type="text" />
+          <Property Name="obsservicos" Type="text" />
+          <Property Name="operador" Type="varchar" MaxLength="10" />
+          <Property Name="operadoralteracao" Type="varchar" MaxLength="10" />
+          <Property Name="outrasrendas" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="pai" Type="varchar" MaxLength="40" />
+          <Property Name="percentualsalario" Type="decimal" Nullable="false" Scale="5" />
+          <Property Name="produto" Type="varchar" MaxLength="20" />
+          <Property Name="profissao" Type="varchar" MaxLength="40" />
+          <Property Name="ProfissaoAval" Type="varchar" MaxLength="25" />
+          <Property Name="profissaoconj" Type="varchar" MaxLength="25" />
+          <Property Name="proprietario" Type="varchar" MaxLength="30" />
+          <Property Name="referencias" Type="text" />
+          <Property Name="renda" Type="decimal" Scale="2" />
+          <Property Name="rendaavalista" Type="decimal" Scale="2" />
+          <Property Name="restritiva" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="salario" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="salarioconj" Type="decimal" Scale="2" />
+          <Property Name="saldo" Type="decimal" Scale="2" />
+          <Property Name="senha" Type="varchar" MaxLength="60" />
+          <Property Name="servico" Type="varchar" MaxLength="60" />
+          <Property Name="servicos" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="sexo" Type="char" MaxLength="1" />
+          <Property Name="site" Type="varchar" MaxLength="100" />
+          <Property Name="situacao" Type="varchar" MaxLength="15" />
+          <Property Name="telefone" Type="varchar" MaxLength="16" />
+          <Property Name="telefone2" Type="varchar" MaxLength="16" />
+          <Property Name="telefone3" Type="varchar" MaxLength="16" />
+          <Property Name="telefoneaval" Type="varchar" MaxLength="16" />
+          <Property Name="TelefoneConj" Type="varchar" MaxLength="16" />
+          <Property Name="telefonetrab" Type="varchar" MaxLength="16" />
+          <Property Name="tipo" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="tipoBairro" Type="varchar" MaxLength="10" />
+          <Property Name="tipoEndereco" Type="varchar" MaxLength="10" />
+          <Property Name="tiporesidencia" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="totalrenda" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="ultcompra" Type="date" />
+          <Property Name="ultpagamento" Type="date" />
+          <Property Name="ultvencimento" Type="date" />
+          <Property Name="ultvrpago" Type="decimal" Scale="2" />
+          <Property Name="validadecontrato" Type="date" />
+          <Property Name="valoraluguel" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="valorcartaofidelidade" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="valorcontrato" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="valorultimocontrato" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="vendedor" Type="char" MaxLength="3" />
+          <Property Name="versaolite" Type="char" Nullable="false" MaxLength="1" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2006/04/edm" Namespace="DMClientes" Alias="Self">
+        <EntityContainer Name="DMClientesContainer" >
+          <EntitySet Name="clientesSICESet" EntityType="DMClientes.clientesSICE" /></EntityContainer>
+        <EntityType Name="clientesSICE">
+          <Key>
+            <PropertyRef Name="Codigo" /></Key>
+          <Property Name="apelido" Type="String" Nullable="true" />
+          <Property Name="area" Type="String" Nullable="true" />
+          <Property Name="ativo" Type="String" Nullable="false" />
+          <Property Name="atualizarpelosalario" Type="String" Nullable="false" />
+          <Property Name="avalista" Type="String" Nullable="true" />
+          <Property Name="bairro" Type="String" Nullable="true" />
+          <Property Name="bairro2" Type="String" Nullable="true" />
+          <Property Name="bairroaval" Type="String" Nullable="true" />
+          <Property Name="bairroconj" Type="String" Nullable="true" />
+          <Property Name="bairrotrab" Type="String" Nullable="true" />
+          <Property Name="cartaofidelidade" Type="String" Nullable="true" />
+          <Property Name="celular" Type="String" Nullable="true" />
+          <Property Name="cep" Type="String" Nullable="true" />
+          <Property Name="cep2" Type="String" Nullable="true" />
+          <Property Name="cepaval" Type="String" Nullable="true" />
+          <Property Name="cepConj" Type="String" Nullable="true" />
+          <Property Name="ceptrab" Type="String" Nullable="true" />
+          <Property Name="chequedevolvido" Type="String" Nullable="true" />
+          <Property Name="cidade" Type="String" Nullable="true" />
+          <Property Name="cidade2" Type="String" Nullable="true" />
+          <Property Name="cidadeaval" Type="String" Nullable="true" />
+          <Property Name="cidadeconj" Type="String" Nullable="true" />
+          <Property Name="cidadetrab" Type="String" Nullable="true" />
+          <Property Name="cnpj" Type="String" Nullable="true" />
+          <Property Name="cnpjtrab" Type="String" Nullable="true" />
+          <Property Name="cobranca" Type="String" Nullable="true" />
+          <Property Name="cobrarnodia" Type="Int32" Nullable="false" />
+          <Property Name="cobrarnovencimento" Type="String" Nullable="true" />
+          <Property Name="codarea" Type="String" Nullable="true" />
+          <Property Name="Codigo" Type="Int32" Nullable="false" />
+          <Property Name="CodigoFilial" Type="String" Nullable="true" />
+          <Property Name="codigoserv" Type="Int64" Nullable="false" />
+          <Property Name="codigosice" Type="Int64" Nullable="true" />
+          <Property Name="complementoEnd" Type="String" Nullable="false" />
+          <Property Name="conjuge" Type="String" Nullable="true" />
+          <Property Name="contabil" Type="String" Nullable="false" />
+          <Property Name="cpf" Type="String" Nullable="true" />
+          <Property Name="cpfavalista" Type="String" Nullable="true" />
+          <Property Name="cpfconj" Type="String" Nullable="true" />
+          <Property Name="credito" Type="Decimal" Nullable="true" />
+          <Property Name="creditoprovisorio" Type="Decimal" Nullable="false" />
+          <Property Name="data" Type="DateTime" Nullable="true" />
+          <Property Name="dataalteracaosenha" Type="DateTime" Nullable="true" />
+          <Property Name="databoleto" Type="DateTime" Nullable="false" />
+          <Property Name="datacadastro" Type="DateTime" Nullable="true" />
+          <Property Name="datacobranca" Type="DateTime" Nullable="true" />
+          <Property Name="datacontrato" Type="DateTime" Nullable="false" />
+          <Property Name="datadesativo" Type="DateTime" Nullable="true" />
+          <Property Name="datalimitedesconto" Type="DateTime" Nullable="true" />
+          <Property Name="dataultcarta" Type="DateTime" Nullable="true" />
+          <Property Name="debito" Type="Decimal" Nullable="true" />
+          <Property Name="debitoch" Type="Decimal" Nullable="false" />
+          <Property Name="desconto" Type="Decimal" Nullable="false" />
+          <Property Name="diasprimeirovencimento" Type="Int32" Nullable="false" />
+          <Property Name="email" Type="String" Nullable="true" />
+          <Property Name="endereco" Type="String" Nullable="true" />
+          <Property Name="endereco2" Type="String" Nullable="true" />
+          <Property Name="enderecoaval" Type="String" Nullable="true" />
+          <Property Name="enderecoconj" Type="String" Nullable="true" />
+          <Property Name="enderecotrab" Type="String" Nullable="true" />
+          <Property Name="estado" Type="String" Nullable="true" />
+          <Property Name="estado2" Type="String" Nullable="true" />
+          <Property Name="estadoaval" Type="String" Nullable="true" />
+          <Property Name="estadocivil" Type="String" Nullable="false" />
+          <Property Name="estadoconj" Type="String" Nullable="true" />
+          <Property Name="estadotrab" Type="String" Nullable="true" />
+          <Property Name="fabricacao" Type="String" Nullable="false" />
+          <Property Name="fax" Type="String" Nullable="true" />
+          <Property Name="fidelizacao" Type="String" Nullable="false" />
+          <Property Name="identidade" Type="String" Nullable="true" />
+          <Property Name="identidadeaval" Type="String" Nullable="true" />
+          <Property Name="identidadeconj" Type="String" Nullable="true" />
+          <Property Name="inscricao" Type="String" Nullable="true" />
+          <Property Name="localtrabalho" Type="String" Nullable="true" />
+          <Property Name="LocalTrabAval" Type="String" Nullable="true" />
+          <Property Name="localtrabconj" Type="String" Nullable="true" />
+          <Property Name="mae" Type="String" Nullable="true" />
+          <Property Name="mapa" Type="String" Nullable="true" />
+          <Property Name="marcado" Type="String" Nullable="false" />
+          <Property Name="nascimento" Type="DateTime" Nullable="true" />
+          <Property Name="nascimentoaval" Type="DateTime" Nullable="true" />
+          <Property Name="nascimentoconj" Type="DateTime" Nullable="true" />
+          <Property Name="ncartas" Type="Int32" Nullable="false" />
+          <Property Name="ndiascobranca" Type="Int32" Nullable="true" />
+          <Property Name="newsletter" Type="String" Nullable="false" />
+          <Property Name="Nome" Type="String" Nullable="false" />
+          <Property Name="numero" Type="String" Nullable="false" />
+          <Property Name="numerofiliais" Type="Int32" Nullable="false" />
+          <Property Name="observacao" Type="String" Nullable="true" />
+          <Property Name="obsservicos" Type="String" Nullable="true" />
+          <Property Name="operador" Type="String" Nullable="true" />
+          <Property Name="operadoralteracao" Type="String" Nullable="true" />
+          <Property Name="outrasrendas" Type="Decimal" Nullable="false" />
+          <Property Name="pai" Type="String" Nullable="true" />
+          <Property Name="percentualsalario" Type="Decimal" Nullable="false" />
+          <Property Name="produto" Type="String" Nullable="true" />
+          <Property Name="profissao" Type="String" Nullable="true" />
+          <Property Name="ProfissaoAval" Type="String" Nullable="true" />
+          <Property Name="profissaoconj" Type="String" Nullable="true" />
+          <Property Name="proprietario" Type="String" Nullable="true" />
+          <Property Name="referencias" Type="String" Nullable="true" />
+          <Property Name="renda" Type="Decimal" Nullable="true" />
+          <Property Name="rendaavalista" Type="Decimal" Nullable="true" />
+          <Property Name="restritiva" Type="String" Nullable="false" />
+          <Property Name="salario" Type="Decimal" Nullable="false" />
+          <Property Name="salarioconj" Type="Decimal" Nullable="true" />
+          <Property Name="saldo" Type="Decimal" Nullable="true" />
+          <Property Name="senha" Type="String" Nullable="true" />
+          <Property Name="servico" Type="String" Nullable="true" />
+          <Property Name="servicos" Type="String" Nullable="false" />
+          <Property Name="sexo" Type="String" Nullable="true" />
+          <Property Name="site" Type="String" Nullable="true" />
+          <Property Name="situacao" Type="String" Nullable="true" />
+          <Property Name="telefone" Type="String" Nullable="true" />
+          <Property Name="telefone2" Type="String" Nullable="true" />
+          <Property Name="telefone3" Type="String" Nullable="true" />
+          <Property Name="telefoneaval" Type="String" Nullable="true" />
+          <Property Name="TelefoneConj" Type="String" Nullable="true" />
+          <Property Name="telefonetrab" Type="String" Nullable="true" />
+          <Property Name="tipo" Type="String" Nullable="false" />
+          <Property Name="tipoBairro" Type="String" Nullable="true" />
+          <Property Name="tipoEndereco" Type="String" Nullable="true" />
+          <Property Name="tiporesidencia" Type="String" Nullable="false" />
+          <Property Name="totalrenda" Type="Decimal" Nullable="false" />
+          <Property Name="ultcompra" Type="DateTime" Nullable="true" />
+          <Property Name="ultpagamento" Type="DateTime" Nullable="true" />
+          <Property Name="ultvencimento" Type="DateTime" Nullable="true" />
+          <Property Name="ultvrpago" Type="Decimal" Nullable="true" />
+          <Property Name="validadecontrato" Type="DateTime" Nullable="true" />
+          <Property Name="valoraluguel" Type="Decimal" Nullable="false" />
+          <Property Name="valorcartaofidelidade" Type="Decimal" Nullable="false" />
+          <Property Name="valorcontrato" Type="Decimal" Nullable="false" />
+          <Property Name="valorultimocontrato" Type="Decimal" Nullable="false" />
+          <Property Name="vendedor" Type="String" Nullable="true" />
+          <Property Name="versaolite" Type="String" Nullable="false" /></EntityType></Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS" Space="C-S">
+        <Alias Key="Model" Value="DMClientes" />
+        <Alias Key="Target" Value="DMClientes.Store" />
+        <EntityContainerMapping CdmEntityContainer="DMClientesContainer" StorageEntityContainer="DMClientesStoreContainer">
+          <EntitySetMapping Name="clientesSICESet">
+            <EntityTypeMapping TypeName="IsTypeOf(DMClientes.clientesSICE)">
+              <MappingFragment StoreEntitySet="clientes">
+                <ScalarProperty Name="versaolite" ColumnName="versaolite" />
+                <ScalarProperty Name="vendedor" ColumnName="vendedor" />
+                <ScalarProperty Name="valorultimocontrato" ColumnName="valorultimocontrato" />
+                <ScalarProperty Name="valorcontrato" ColumnName="valorcontrato" />
+                <ScalarProperty Name="valorcartaofidelidade" ColumnName="valorcartaofidelidade" />
+                <ScalarProperty Name="valoraluguel" ColumnName="valoraluguel" />
+                <ScalarProperty Name="validadecontrato" ColumnName="validadecontrato" />
+                <ScalarProperty Name="ultvrpago" ColumnName="ultvrpago" />
+                <ScalarProperty Name="ultvencimento" ColumnName="ultvencimento" />
+                <ScalarProperty Name="ultpagamento" ColumnName="ultpagamento" />
+                <ScalarProperty Name="ultcompra" ColumnName="ultcompra" />
+                <ScalarProperty Name="totalrenda" ColumnName="totalrenda" />
+                <ScalarProperty Name="tiporesidencia" ColumnName="tiporesidencia" />
+                <ScalarProperty Name="tipoEndereco" ColumnName="tipoEndereco" />
+                <ScalarProperty Name="tipoBairro" ColumnName="tipoBairro" />
+                <ScalarProperty Name="tipo" ColumnName="tipo" />
+                <ScalarProperty Name="telefonetrab" ColumnName="telefonetrab" />
+                <ScalarProperty Name="TelefoneConj" ColumnName="TelefoneConj" />
+                <ScalarProperty Name="telefoneaval" ColumnName="telefoneaval" />
+                <ScalarProperty Name="telefone3" ColumnName="telefone3" />
+                <ScalarProperty Name="telefone2" ColumnName="telefone2" />
+                <ScalarProperty Name="telefone" ColumnName="telefone" />
+                <ScalarProperty Name="situacao" ColumnName="situacao" />
+                <ScalarProperty Name="site" ColumnName="site" />
+                <ScalarProperty Name="sexo" ColumnName="sexo" />
+                <ScalarProperty Name="servicos" ColumnName="servicos" />
+                <ScalarProperty Name="servico" ColumnName="servico" />
+                <ScalarProperty Name="senha" ColumnName="senha" />
+                <ScalarProperty Name="saldo" ColumnName="saldo" />
+                <ScalarProperty Name="salarioconj" ColumnName="salarioconj" />
+                <ScalarProperty Name="salario" ColumnName="salario" />
+                <ScalarProperty Name="restritiva" ColumnName="restritiva" />
+                <ScalarProperty Name="rendaavalista" ColumnName="rendaavalista" />
+                <ScalarProperty Name="renda" ColumnName="renda" />
+                <ScalarProperty Name="referencias" ColumnName="referencias" />
+                <ScalarProperty Name="proprietario" ColumnName="proprietario" />
+                <ScalarProperty Name="profissaoconj" ColumnName="profissaoconj" />
+                <ScalarProperty Name="ProfissaoAval" ColumnName="ProfissaoAval" />
+                <ScalarProperty Name="profissao" ColumnName="profissao" />
+                <ScalarProperty Name="produto" ColumnName="produto" />
+                <ScalarProperty Name="percentualsalario" ColumnName="percentualsalario" />
+                <ScalarProperty Name="pai" ColumnName="pai" />
+                <ScalarProperty Name="outrasrendas" ColumnName="outrasrendas" />
+                <ScalarProperty Name="operadoralteracao" ColumnName="operadoralteracao" />
+                <ScalarProperty Name="operador" ColumnName="operador" />
+                <ScalarProperty Name="obsservicos" ColumnName="obsservicos" />
+                <ScalarProperty Name="observacao" ColumnName="observacao" />
+                <ScalarProperty Name="numerofiliais" ColumnName="numerofiliais" />
+                <ScalarProperty Name="numero" ColumnName="numero" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="newsletter" ColumnName="newsletter" />
+                <ScalarProperty Name="ndiascobranca" ColumnName="ndiascobranca" />
+                <ScalarProperty Name="ncartas" ColumnName="ncartas" />
+                <ScalarProperty Name="nascimentoconj" ColumnName="nascimentoconj" />
+                <ScalarProperty Name="nascimentoaval" ColumnName="nascimentoaval" />
+                <ScalarProperty Name="nascimento" ColumnName="nascimento" />
+                <ScalarProperty Name="marcado" ColumnName="marcado" />
+                <ScalarProperty Name="mapa" ColumnName="mapa" />
+                <ScalarProperty Name="mae" ColumnName="mae" />
+                <ScalarProperty Name="localtrabconj" ColumnName="localtrabconj" />
+                <ScalarProperty Name="LocalTrabAval" ColumnName="LocalTrabAval" />
+                <ScalarProperty Name="localtrabalho" ColumnName="localtrabalho" />
+                <ScalarProperty Name="inscricao" ColumnName="inscricao" />
+                <ScalarProperty Name="identidadeconj" ColumnName="identidadeconj" />
+                <ScalarProperty Name="identidadeaval" ColumnName="identidadeaval" />
+                <ScalarProperty Name="identidade" ColumnName="identidade" />
+                <ScalarProperty Name="fidelizacao" ColumnName="fidelizacao" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="fabricacao" ColumnName="fabricacao" />
+                <ScalarProperty Name="estadotrab" ColumnName="estadotrab" />
+                <ScalarProperty Name="estadoconj" ColumnName="estadoconj" />
+                <ScalarProperty Name="estadocivil" ColumnName="estadocivil" />
+                <ScalarProperty Name="estadoaval" ColumnName="estadoaval" />
+                <ScalarProperty Name="estado2" ColumnName="estado2" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="enderecotrab" ColumnName="enderecotrab" />
+                <ScalarProperty Name="enderecoconj" ColumnName="enderecoconj" />
+                <ScalarProperty Name="enderecoaval" ColumnName="enderecoaval" />
+                <ScalarProperty Name="endereco2" ColumnName="endereco2" />
+                <ScalarProperty Name="endereco" ColumnName="endereco" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="diasprimeirovencimento" ColumnName="diasprimeirovencimento" />
+                <ScalarProperty Name="desconto" ColumnName="desconto" />
+                <ScalarProperty Name="debitoch" ColumnName="debitoch" />
+                <ScalarProperty Name="debito" ColumnName="debito" />
+                <ScalarProperty Name="dataultcarta" ColumnName="dataultcarta" />
+                <ScalarProperty Name="datalimitedesconto" ColumnName="datalimitedesconto" />
+                <ScalarProperty Name="datadesativo" ColumnName="datadesativo" />
+                <ScalarProperty Name="datacontrato" ColumnName="datacontrato" />
+                <ScalarProperty Name="datacobranca" ColumnName="datacobranca" />
+                <ScalarProperty Name="datacadastro" ColumnName="datacadastro" />
+                <ScalarProperty Name="databoleto" ColumnName="databoleto" />
+                <ScalarProperty Name="dataalteracaosenha" ColumnName="dataalteracaosenha" />
+                <ScalarProperty Name="data" ColumnName="data" />
+                <ScalarProperty Name="creditoprovisorio" ColumnName="creditoprovisorio" />
+                <ScalarProperty Name="credito" ColumnName="credito" />
+                <ScalarProperty Name="cpfconj" ColumnName="cpfconj" />
+                <ScalarProperty Name="cpfavalista" ColumnName="cpfavalista" />
+                <ScalarProperty Name="cpf" ColumnName="cpf" />
+                <ScalarProperty Name="contabil" ColumnName="contabil" />
+                <ScalarProperty Name="conjuge" ColumnName="conjuge" />
+                <ScalarProperty Name="complementoEnd" ColumnName="complementoEnd" />
+                <ScalarProperty Name="codigosice" ColumnName="codigosice" />
+                <ScalarProperty Name="codigoserv" ColumnName="codigoserv" />
+                <ScalarProperty Name="CodigoFilial" ColumnName="CodigoFilial" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="codarea" ColumnName="codarea" />
+                <ScalarProperty Name="cobrarnovencimento" ColumnName="cobrarnovencimento" />
+                <ScalarProperty Name="cobrarnodia" ColumnName="cobrarnodia" />
+                <ScalarProperty Name="cobranca" ColumnName="cobranca" />
+                <ScalarProperty Name="cnpjtrab" ColumnName="cnpjtrab" />
+                <ScalarProperty Name="cnpj" ColumnName="cnpj" />
+                <ScalarProperty Name="cidadetrab" ColumnName="cidadetrab" />
+                <ScalarProperty Name="cidadeconj" ColumnName="cidadeconj" />
+                <ScalarProperty Name="cidadeaval" ColumnName="cidadeaval" />
+                <ScalarProperty Name="cidade2" ColumnName="cidade2" />
+                <ScalarProperty Name="cidade" ColumnName="cidade" />
+                <ScalarProperty Name="chequedevolvido" ColumnName="chequedevolvido" />
+                <ScalarProperty Name="ceptrab" ColumnName="ceptrab" />
+                <ScalarProperty Name="cepConj" ColumnName="cepConj" />
+                <ScalarProperty Name="cepaval" ColumnName="cepaval" />
+                <ScalarProperty Name="cep2" ColumnName="cep2" />
+                <ScalarProperty Name="cep" ColumnName="cep" />
+                <ScalarProperty Name="celular" ColumnName="celular" />
+                <ScalarProperty Name="cartaofidelidade" ColumnName="cartaofidelidade" />
+                <ScalarProperty Name="bairrotrab" ColumnName="bairrotrab" />
+                <ScalarProperty Name="bairroconj" ColumnName="bairroconj" />
+                <ScalarProperty Name="bairroaval" ColumnName="bairroaval" />
+                <ScalarProperty Name="bairro2" ColumnName="bairro2" />
+                <ScalarProperty Name="bairro" ColumnName="bairro" />
+                <ScalarProperty Name="avalista" ColumnName="avalista" />
+                <ScalarProperty Name="atualizarpelosalario" ColumnName="atualizarpelosalario" />
+                <ScalarProperty Name="ativo" ColumnName="ativo" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="apelido" ColumnName="apelido" /></MappingFragment></EntityTypeMapping></EntitySetMapping></EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram Name="DMClientes" >
+        <EntityTypeShape EntityType="DMClientes.clientesSICE" Width="1.5" PointX="1.5" PointY="0.5" Height="26.979472656250003" /></Diagram></edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

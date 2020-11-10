@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="55edc942-5e87-4f9d-b60f-2c3d4257d0d0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://wssice.cloudapp.net/WSProdutos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSProdutos.xsd" MetadataType="Schema" ID="4d549679-3520-4949-9a3c-1604ac1db465" SourceId="1" SourceUrl="http://wssice.cloudapp.net/WSProdutos.svc?xsd=xsd1" />
+    <MetadataFile FileName="WSProdutos1.xsd" MetadataType="Schema" ID="65d8e696-8170-47a8-8dbf-77effc17f984" SourceId="1" SourceUrl="http://wssice.cloudapp.net/WSProdutos.svc?xsd=xsd0" />
+    <MetadataFile FileName="WSProdutos2.xsd" MetadataType="Schema" ID="c64106ad-80ba-4db4-afa0-ee235d9c90e8" SourceId="1" SourceUrl="http://wssice.cloudapp.net/WSProdutos.svc?xsd=xsd2" />
+    <MetadataFile FileName="WSProdutos.disco" MetadataType="Disco" ID="495dbc18-083e-4334-a911-b990dbb852c7" SourceId="1" SourceUrl="http://wssice.cloudapp.net/WSProdutos.svc?disco" />
+    <MetadataFile FileName="WSProdutos.wsdl" MetadataType="Wsdl" ID="507b47b9-5632-4113-b9bf-27d2f0488703" SourceId="1" SourceUrl="http://wssice.cloudapp.net/WSProdutos.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,34 @@
+                 REDE                 
+              MASTERCARD             T
+COMPR:503213846    VALOR:         0,10
+ESTAB:011728329 LOJAS OLINDINA        
+24.08.18-17:11:52 TERM:PV962499/001018
+CARTAO: xxxx.xxxx.xxxx.2019           
+AUTORIZACAO: 037712                   
+ARQC:
+!
+    TRANSACAO AUTORIZADA MEDIANTE     
+    USO DE SENHA PESSOAL.             
+
+
+CONTROLE 08400811027  OKI BRASIL SCOPE
+
+
+
+
+                 REDE                 
+              MASTERCARD             T
+COMPR:503213846    VALOR:         0,10
+ESTAB:011728329 LOJAS OLINDINA        
+24.08.18-17:11:52 TERM:PV962499/001018
+CARTAO: xxxx.xxxx.xxxx.2019           
+AUTORIZACAO: 037712                   
+ARQC:
+!
+    TRANSACAO AUTORIZADA MEDIANTE     
+    USO DE SENHA PESSOAL.             
+
+
+CONTROLE 08400811027  OKI BRASIL SCOPE
+
+

@@ -1,0 +1,24 @@
+[ecf] = 03; 
+[velocidade] =115200; 
+[porta] = COM3; 
+[modoGaveta] = false; 
+[verificarECFLigada] = true; 
+[tempo] = 3; 
+  
+  
+ 
+#1 Bematech, 
+#2 Daruma, 
+#3 Elgin, 
+#4 Sweda, 
+#5 Schalter, 
+#6 Mecaf, 
+#7 Yanco, 
+#8 DataRegis,
+#9 Urano, 
+#10 ICash, 
+#11 Quattro, 
+#12 Epson,
+#13 NCR, 
+#14 SwedaSTX,  
+#15 EscECF
