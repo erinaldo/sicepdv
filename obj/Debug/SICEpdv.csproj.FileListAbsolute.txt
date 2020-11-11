@@ -280,3 +280,4 @@ C:\IQSistemas\SICEpdv\SICEpdv\IQKiosk\obj\Debug\SICEpdv.application
 C:\IQSistemas\SICEpdv\SICEpdv\IQKiosk\obj\Debug\SICEpdv.csproj.CopyComplete
 C:\IQSistemas\SICEpdv\SICEpdv\IQKiosk\obj\Debug\SICEpdv.exe
 C:\IQSistemas\SICEpdv\SICEpdv\IQKiosk\obj\Debug\SICEpdv.pdb
+C:\IQSistemas\SICEpdv\SICEpdv\IQKiosk\obj\Debug\SICEpdv.PortalContabilidade.resources

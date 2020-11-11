@@ -585,6 +585,12 @@
     <Compile Include="FrmPreVenda.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="PortalContabilidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PortalContabilidade.Designer.cs">
+      <DependentUpon>PortalContabilidade.cs</DependentUpon>
+    </Compile>
     <Compile Include="PreVenda.cs" />
     <Compile Include="PreVenda.Designer.cs">
       <DependentUpon>FrmPreVenda.cs</DependentUpon>
@@ -804,6 +810,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PedidosIQCard.resx">
       <DependentUpon>PedidosIQCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortalContabilidade.resx">
+      <DependentUpon>PortalContabilidade.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

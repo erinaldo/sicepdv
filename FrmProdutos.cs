@@ -603,8 +603,6 @@ namespace SICEpdv
                 return;
             }
 
-
-
             FrmLogon Logon = new FrmLogon();
             Operador.autorizado = false;
             Logon.idCliente = 0;
@@ -634,6 +632,8 @@ namespace SICEpdv
             {
                 produtos.AtualizarProdutosContadorNuvem();
                 MessageBox.Show("Produtos exportado com sucesso. Seu contador receberá um e-mail para poder acessar o portal");
+                PortalContabilidade portal = new PortalContabilidade();
+                portal.ShowDialog();
             }
             catch (Exception ex)
             {
@@ -686,6 +686,34 @@ namespace SICEpdv
                 msg3.Dispose();
             }
 
+        }
+
+        private void portalECredenciaisDeAcessoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            if (string.IsNullOrEmpty(Configuracoes.cnpj))
+            {
+                MessageBox.Show("CNPJ da filial é necessário para poder enviar os produtos");
+                return;
+            }
+
+            FrmLogon Logon = new FrmLogon();
+            Operador.autorizado = false;
+            Logon.idCliente = 0;
+            Logon.campo = "gerente";
+            Logon.lblDescricao.Text = "ENVIAR PRODUTOS CONTADOR(A) CNPJ : " + Funcoes.FormatarCNPJ(Configuracoes.cnpj);
+            Logon.txtDescricao.Text = "Digite a senha para confirmar. É necessário ter a permissão de Gerente";
+            Logon.ShowDialog();
+            if (!Operador.autorizado)
+                return;
+
+            if (string.IsNullOrEmpty(Configuracoes.emailContador))
+            {
+                MessageBox.Show("Cadastre o email do contador nas configurações da filial no SICE.net para que ele possa ter acesso ao portal.");
+            }
+
+            PortalContabilidade portal = new PortalContabilidade();
+            portal.ShowDialog();
         }
     }
 }
